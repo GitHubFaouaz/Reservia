@@ -1,0 +1,546 @@
+@font-face
+ {
+   font-family: 'Raleway-Black';
+   src: url('fonts/raleway/Raleway-Black.ttf') ;
+ 
+ } 
+
+
+body
+{
+
+  font-family:'Raleway-Black',sans-serif;  
+  
+  
+    width: 1500px;
+    height: 2000px;
+   background-color: olive;
+   margin: auto;
+   
+
+}
+
+ 
+
+header
+{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0px;
+    
+}
+
+nav
+{
+    margin-right: 35px;
+    margin-top: 30px;
+}
+nav a
+{
+    margin-left: 35px;
+}
+/*...........................fin header................*/
+.sectionRecherche
+{
+   width: 1300px
+   height:300px;
+   
+}
+
+#headerRecherche
+{
+display: block;
+
+}
+
+#formeRecherche 
+{
+     display: flex;
+  
+     
+
+    
+
+}
+.fa-map-marker-alt
+{
+    width:50px; 
+    
+    border: 0px solid #F2F2F2 ;
+    border-radius: 10px 0 0 10px;
+    background-color: #F2F2F2;
+    color: black;
+    text-align: center;
+    padding: 10px 0px ;
+    position: relative; 
+    
+}     
+   
+#inputSearch
+{
+   width: 224px;
+  height: 50px;
+  border: 0px solid silver ;
+  background-color: white;
+  text-align: center;
+  
+}
+#button
+{
+    width: 137px;
+    height:50px;
+    border: 0px solid silver ;
+    background-color: #0065FC;
+    border-radius: 0px 10px 10px 0px; 
+    
+   
+    cursor: pointer;
+
+
+}
+
+
+#barreFiltre
+{
+width: 870px;
+display: flex;
+justify-content: space-between; 
+align-items: center;
+margin-top: 3em;
+
+
+}
+.fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog
+{
+    color:#0065FC; 
+    background-color: #DEEBFF;
+    border: 1px solid #DEEBFF;
+    width: 20px;
+    height: 20px;
+    border-radius:100%;
+    padding:10px;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    position: relative;
+    right: 6px;
+
+}
+
+.rectangleFiltre
+{
+      display: flex;
+      align-items: center;
+      text-align: center;
+       color: black;
+       margin-left: 20px;
+       border: 1px solid silver ;
+       border-radius: 18px;
+       text-decoration: none;
+       font-weight: bold;  
+       padding-right: 15px;
+
+}         
+         
+       
+.fa-info
+{
+   color:#0065FC; 
+   background-color:white;
+   border: 1px solid silver;
+   width: 18px;
+   height: 17px;
+   border-radius: 100%;
+   padding:6px ;
+   text-align: center;
+   margin-right: 10px;
+   
+}
+#le-point-I
+{
+
+  text-decoration: none;
+  
+
+}
+       
+ /* ........................corps de la page section Hébergement  ..................... */  
+
+#sectionHébergement
+{
+   
+   width: 1400px;
+   height: 600px;
+   display: flex;
+   
+ 
+
+}
+#divhébergement
+{
+ 
+  width: 930px;
+  height: 600px;
+  background-color: #F2F2F2;
+  display: flex;
+  display: block;
+  border-radius: 25px;  
+
+  
+}
+#headerSection2
+{
+   width: 350px;
+   height: 50px; 
+   background-color: #F2F2F2;
+   border-radius: 25px 0 0 0 ;   
+}
+.divArticle-1-2-3
+{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 250px;
+
+}
+.divArticle-4-5-6
+{
+display: flex;
+justify-content: space-around;
+align-content: space-around;
+height: 250px;
+
+
+}
+.dimensionArticleHebergement
+{
+  border: 1px solid white;  
+  border-radius: 20px;
+  width: 255px;
+  height: 200px;
+   background-color:white;
+
+}
+.aHref-de-section-ou-Aside
+{
+
+  text-decoration: none;
+}
+.figureSectionHebergement
+{
+  display: flex;
+  flex-direction: column;
+  margin: 4px 4px 0px 4px ;
+  
+ 
+
+}
+
+
+.imgFigure
+{
+   
+   height: 110px;  
+   width: 245px;
+   max-width: 245px;
+   object-fit:cover;/* définit la façon dont le contenu d'un élément remplacé (<img> ou <video>*/ 
+   margin: 0px ;   
+   border-radius: 15px 15px 0 0; 
+   
+}
+.figcaptionSectionHebergement
+{
+   
+   display: block;
+   
+   width: 245px;
+   height: 80px;
+   margin: 0 0 0 8px; 
+   
+}
+ h3
+{
+    font-size: 1.2em;
+    margin: 0;
+    
+} 
+   
+h3+p{
+    
+    
+    font-size: 16px;
+    margin: 5px 0 0 0px;
+    
+  
+  }
+  .divEtoile
+  {
+    margin: 5px 0 0 0px;
+   
+  }
+  .fa-star
+  {
+    color:#0065FC; 
+   
+  }
+  #div-afficherPlus
+  {
+   width: 250px;
+   height: 18px;
+  
+
+
+  }
+  /*........aside Hébergement................*/
+
+  aside
+  {
+    width: 450px;
+    height: 600px;
+    background-color: #F2F2F2;
+    margin-left: 35px;
+    border-radius: 25px ;   
+   
+  }
+   
+#div-H2-Aside
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+    width: 450px;
+    height: 50px;
+    border-radius: 25px 25px 0 0 ;
+}
+#div-Article-Aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;/*en vertical au lieu de align content*/
+    align-items: center;
+    width: 450px;
+    height: 550px;
+ 
+    
+    
+}
+#dimensionArticleAside
+{
+  width: 385px;
+  height: 140px;
+  border: 1px solid white;  
+  border-radius: 20px;
+  background-color: white;
+   
+}
+
+.figureAside
+{
+
+  display: flex;
+  height: 140px;
+  align-items: center;
+  margin: 0px 0px 0px 4px;
+  
+}
+.imgAside
+{
+   object-fit: cover;
+   width: 120px;        
+   height: 130px; 
+   border-radius: 15px 0 0 15px;
+  
+  
+}
+.figcaptionAside
+{
+   display: block;
+   width: 220px;
+   height: 130px;     
+   padding:0px 0 0 9px; 
+   
+}
+  aside figcaption h3
+{
+  
+   margin-top: 3px;
+
+} 
+aside figcaption p 
+{
+
+  margin-top: 3px;
+  
+
+}
+.divEtoileAside
+{
+   margin: 40px 0 0 0;
+    
+
+}
+
+/*...............section3 Activités à Marseille    */
+
+#section3-Activités-à-Marseille
+{
+   width: 1400px;
+   height: 610px;
+   display: flex;
+   display: block;
+   
+}
+#divHeader-Section3
+{
+  widows: 1400px;
+  height: 30px; /*2em*/
+ 
+  font-size: 15px;
+}
+#div-DesArticle-Activités-à-Marseille 
+{
+  width: 1400px;
+  height: 580px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  
+
+}
+.aHref
+{
+
+
+}
+.figureArticle1-et-3
+{
+  width: 320px; 
+  height: 550px;
+  
+  background-color: white;
+  border-radius: 15px ; 
+  margin: 0;
+  
+  }
+.imgArticle1-et-3
+{
+ width: 320px;
+ height: 485px; 
+ object-fit: cover;
+ border-radius: 15px 15px 0 0;
+
+}
+.figcation-section3
+{
+
+background-color: white;
+
+}
+
+
+
+
+/*...........concerne les petites photos.......................*/
+
+.div-DesPetites-Photos
+{
+  width: 320px; 
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-between;/*en vertical au lieu de align content*/
+
+}
+.figure-petitePhoto1-petitePhoto4
+{
+   width:320px;
+   height:290px; 
+   background-color: white; 
+   border-radius: 15px ;
+   margin: 0;/*pour coller les photo dans la div-DesPetites-Photos*/
+   
+}
+.figure-petitePhoto2-petitePhoto3
+{
+   width:320px;
+   height:225px;
+  background-color: white; 
+  border-radius: 15px ;
+  margin: 0; /*pour coller à div-DesPetites-Photos*/
+
+}
+.img-petitePhoto1-petitePhoto4
+{
+   width: 320px;
+   height: 230px; 
+   object-fit: cover;
+   border-radius: 15px 15px 0 0;
+   
+}
+.img-petitePhoto2-petitePhoto3
+{
+
+ width: 320px;
+ height: 165px; 
+ object-fit: cover;
+ border-radius: 15px 15px 0 0;
+ 
+}
+
+
+
+/*..............................................footer.......................................................*/
+footer
+{
+
+  width:1460px;
+  height: 225px;
+  display: block;
+  background-color: #F2F2F2;
+  margin-left:-30px;
+}
+#grandDivFooter
+{
+  
+  width:1400px;
+  height: 225px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+
+.divDesColones 
+{
+   
+   height: 225px;
+   width: 459px;
+ 
+}
+
+footer span
+{
+    font-weight: bold;
+    
+  
+}
+ul , footer span
+{
+   
+    list-style-type:none;
+   
+    padding-left: 32px;  
+    position: relative;
+    top: 32px;
+    line-height: 28px;
+}   
