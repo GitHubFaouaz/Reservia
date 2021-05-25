@@ -13,15 +13,69 @@ body
   
   
     width: 1500px;
-    height: 2000px;
+    height: 3000px;    /*2000px;*/
    background-color: olive;
    margin: auto;
    
 
 }
-
+/*             MEDIA QUERIES*/
+/* pour les petits écran moin de 1000px */  
  
+@media screen and (max-width: 1300px)
+{
+   #bloc_page1_MediaQueries
+   {
+      background-color: seagreen;
+      
+  }
+   
+   #sectionHébergement
+  {
+    width: 1220px;
+    height: 1000px;/*925*/
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 300px;
+    background-color: rosybrown;
+  } 
+   #aside 
+   {
+  
+    width: 1220px;
+    height: 285px;
+    background-color: #F2F2F2;
+    
+    border-radius: 25px ;   
+    align-items: center;
+   }
+   #div-H2-Aside
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: sienna;
+    width: 1220px;
+    height: 80px;
+    border-radius: 25px 25px 0 0 ;
+}
+   #div-Article-Aside
+   {
+    
+    
+    background-color: #0065FC; 
+     
+    width: 450px; 
+    height: 550px;
+  
+   
+ 
+  }
 
+
+} 
+  
+/*       fin Media Queries             */
 header
 {
     width: 1400px;
@@ -310,14 +364,15 @@ h3+p{
   .divEtoile
   {
     margin: 5px 0 0 0px;
-   
+    
   }
+
   .fa-star
   {
-    color:#0065FC; 
-   
+        
+   color: #0065FC;   
   }
- 
+  
   #aHref-afficherPlus
   {
    width: 250px;
@@ -342,12 +397,28 @@ h3+p{
 #div-H2-Aside
 {
    display: flex;
-   justify-content: space-between;
-   align-items: center;
-  
+   justify-content: space-around;
+    align-items:center;
+    
+    
     width: 450px;
-    height: 50px;
+    height: 70px;
     border-radius: 25px 25px 0 0 ;
+    
+  }
+aside div h2
+{
+ 
+  margin-right: 80px;
+  position:relative;
+  top: 10px;;
+}
+.fa-chart-line
+{
+  font-size: 25px;  
+
+  position:relative;
+    top: 10px;;
 }
 #div-Article-Aside
 {
@@ -356,7 +427,7 @@ h3+p{
     justify-content: space-around;/*en vertical au lieu de align content*/
     align-items: center;
     width: 450px;
-    height: 550px;
+    height: 530px;
  
     
     
