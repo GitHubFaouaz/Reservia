@@ -27,8 +27,8 @@ header
     width: 1400px;
     display: flex;
     justify-content: space-between;
-
     margin: 0px;
+    
     
 }
 
@@ -36,15 +36,39 @@ nav
 {
     margin-right: 35px;
     margin-top: 30px;
-}
+    
+  }
 nav a
 {
     margin-left: 35px;
+    text-decoration: none;
+    color: initial;
 }
+#navHebergement
+{
+  border-top: 3px solid #0065FC;
+  padding-top: 25px;
+  color:#0065FC; 
+  
+}
+#activiteNav:hover
+{
+
+  border-top: 3px solid #0065FC;
+  padding-top: 25px;
+  color:#0065FC; 
+  
+
+}
+#inscritionNav
+{
+  color:#0065FC; 
+}
+
 /*...........................fin header................*/
 .sectionRecherche
 {
-   width: 1300px
+   width: 1300px;
    height:300px;
    
 }
@@ -55,33 +79,38 @@ display: block;
 
 }
 
-#formeRecherche 
+form
 {
-     display: flex;
-  
      
-
+     display: block;
+     
     
+    
+
+}
+#barreDeRecherche
+{
+ display: flex;
 
 }
 .fa-map-marker-alt
 {
     width:50px; 
-    
+    height: 50px;
     border: 0px solid #F2F2F2 ;
     border-radius: 10px 0 0 10px;
     background-color: #F2F2F2;
     color: black;
-    text-align: center;
-    padding: 10px 0px ;
-    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }     
    
 #inputSearch
 {
-   width: 224px;
-  height: 50px;
+  width: 224px;
+  height:50px;
   border: 0px solid silver ;
   background-color: white;
   text-align: center;
@@ -94,9 +123,9 @@ display: block;
     border: 0px solid silver ;
     background-color: #0065FC;
     border-radius: 0px 10px 10px 0px; 
-    
-   
     cursor: pointer;
+   
+    
 
 
 }
@@ -187,36 +216,36 @@ margin-top: 3em;
   height: 600px;
   background-color: #F2F2F2;
   display: flex;
-  display: block;
+ flex-direction: column;
+  
   border-radius: 25px;  
 
   
 }
-#headerSection2
+#h2Section2
 {
    width: 350px;
-   height: 50px; 
+   height: 30px; 
    background-color: #F2F2F2;
    border-radius: 25px 0 0 0 ;   
-}
-.divArticle-1-2-3
+   padding:  0px 0 0 28px; 
+   position: relative;
+   top: 10px;
+
+  }
+#divDesArticles
 {
 
 display: flex;
-justify-content: space-around;
+justify-content:space-around ;
+flex-wrap: wrap;
 align-items: center;
-height: 250px;
-
-}
-.divArticle-4-5-6
-{
-display: flex;
-justify-content: space-around;
-align-content: space-around;
-height: 250px;
+height: 480px;
 
 
 }
+
+
 .dimensionArticleHebergement
 {
   border: 1px solid white;  
@@ -288,11 +317,13 @@ h3+p{
     color:#0065FC; 
    
   }
-  #div-afficherPlus
+ 
+  #aHref-afficherPlus
   {
    width: 250px;
-   height: 18px;
-  
+   padding-left: 28px;
+   margin-top: 7px;
+   
 
 
   }
@@ -394,9 +425,10 @@ aside figcaption p
    height: 610px;
    display: flex;
    display: block;
-   
+   margin-bottom: 45px;
+
 }
-#divHeader-Section3
+#divH2-Section3
 {
   widows: 1400px;
   height: 30px; /*2em*/
@@ -415,10 +447,10 @@ aside figcaption p
   
 
 }
-.aHref
+.aHref-section3
 {
-
-
+text-decoration: none;
+ 
 }
 .figureArticle1-et-3
 {
@@ -442,6 +474,9 @@ aside figcaption p
 {
 
 background-color: white;
+padding: 15px 0 0 30px;
+font-weight: bold;
+color: initial;
 
 }
 
