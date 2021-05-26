@@ -13,82 +13,38 @@ body
   
   
     width: 1500px;
-    height: 3000px;    /*2000px;*/
+    height: 2000px;    
    background-color: olive;
    margin: auto;
    
 
 }
-/*             MEDIA QUERIES*/
-/* pour les petits écran moin de 1000px */  
- 
-@media screen and (max-width: 1300px)
-{
-   #bloc_page1_MediaQueries
-   {
-      background-color: seagreen;
-      
-  }
-   
-   #sectionHébergement
-  {
-    width: 1220px;
-    height: 1000px;/*925*/
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 300px;
-    background-color: rosybrown;
-  } 
-   #aside 
-   {
   
-    width: 1220px;
-    height: 285px;
-    background-color: #F2F2F2;
-    
-    border-radius: 25px ;   
-    align-items: center;
-   }
-   #div-H2-Aside
-{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color: sienna;
-    width: 1220px;
-    height: 80px;
-    border-radius: 25px 25px 0 0 ;
-}
-   #div-Article-Aside
-   {
-    
-    
-    background-color: #0065FC; 
-     
-    width: 450px; 
-    height: 550px;
-  
-   
  
-  }
 
 
-} 
-  
-/*       fin Media Queries             */
 header
 {
     width: 1400px;
     display: flex;
-    justify-content: space-between;
-    margin: 0px;
+    justify-content:space-between;
+    
     
     
 }
 
+#imgHeader
+{
+  width: 160px;
+  height: 45px;
+  position: relative;
+  right: 30px;
+  
+  
+}
 nav
 {
-    margin-right: 35px;
+    margin-right: 0px;
     margin-top: 30px;
     
   }
@@ -330,7 +286,7 @@ height: 480px;
    
    height: 110px;  
    width: 245px;
-   max-width: 245px;
+   
    object-fit:cover;/* définit la façon dont le contenu d'un élément remplacé (<img> ou <video>*/ 
    margin: 0px ;   
    border-radius: 15px 15px 0 0; 
@@ -367,12 +323,17 @@ h3+p{
     
   }
 
-  .fa-star
+  .star-on
   {
-        
-   color: #0065FC;   
+      
+   color:#0065FC;   
   }
-  
+  .star-off
+  {
+
+    color:#d9d9d9;
+  }
+
   #aHref-afficherPlus
   {
    width: 250px;
@@ -446,8 +407,8 @@ aside div h2
 {
 
   display: flex;
-  height: 140px;
   align-items: center;
+  height: 140px;
   margin: 0px 0px 0px 4px;
   
 }
@@ -622,7 +583,7 @@ footer
   margin: auto;
   display: flex;
   justify-content: space-between;
- 
+  
   
 }
 
@@ -631,7 +592,7 @@ footer
    
    height: 225px;
    width: 459px;
- 
+  
 }
 
 footer span

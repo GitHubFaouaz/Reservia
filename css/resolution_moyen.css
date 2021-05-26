@@ -1,0 +1,172 @@
+ body
+{
+    background-color: aquamarine;
+    width: 1300px;
+    height: 2300px;
+  
+    
+}   
+header
+{
+    width: 1220px;
+    height: 70px;
+    margin-left: 40px;
+}  
+.sectionRecherche
+{
+  margin-left: 40px;
+
+}
+
+#sectionHébergement
+{
+    width: 1220px;
+    height: 920px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+ 
+    margin-left: 40px;
+    
+    
+  }
+  
+#divhébergement
+{
+    width: 1220px;
+    height: 600px;
+
+  
+}
+
+.dimensionArticleHebergement
+{
+
+    width: 364px;
+    height: 200px;
+    border-radius: 20px;
+   
+}
+
+.figureSectionHebergement
+{
+    width: 352px;
+    margin: 6px 0 0 6px ;
+    
+}
+.imgFigure
+{
+  width: 352px;
+  height: 110px;
+
+}
+
+
+aside
+{
+  width: 1220px;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+
+}
+ #div-H2-Aside
+ {
+  width: 1220px;
+  display: flex;
+  justify-content: space-between
+  
+ }
+ aside h2
+{
+  margin-left: 25px;
+}
+.fa-chart-line
+{
+ margin-right: 25px;
+}  
+ 
+ #div-Article-Aside
+{
+    width: 1220px;
+    height: 285px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#dimensionArticleAside
+{
+    width: 364px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+}
+.figureAside
+{
+  display: flex;
+  align-items: center;
+  height: 148px;
+  
+}
+.imgAside
+{
+   height: 148px;
+   width: 117px;
+}
+.divEtoileAside
+{
+   margin: 50px 0 0 0;
+ 
+   
+}
+ 
+/*----section3--------------*/ 
+
+#section3-Activités-à-Marseille
+{
+  width: 1220px;
+  margin-left: 40px;
+
+ 
+
+}
+#div-DesArticle-Activités-à-Marseille 
+{
+  width: 1220px;
+
+}
+
+.figureArticle1-et-3,.imgArticle1-et-3
+{
+  width: 280px; 
+
+}
+
+
+
+/*...........concerne les petites photos.......................*/
+.div-DesPetites-Photos,.figure-petitePhoto1-petitePhoto4,.figure-petitePhoto2-petitePhoto3,.img-petitePhoto1-petitePhoto4,.img-petitePhoto2-petitePhoto3
+{
+
+    width: 280px;
+}
+
+/*------------------footer---------------------*/
+footer
+{
+   width: 1300px;
+   margin: 0;
+   
+}
+#grandDivFooter
+{
+  width: 1240px;
+   
+}
+.divDesColones
+{
+
+width: 410px;  
+}
