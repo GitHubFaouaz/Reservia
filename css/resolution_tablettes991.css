@@ -1,31 +1,40 @@
 body
-{
-    background-color:olivedrab;
-    width: 975px;
-    height: 2630px;
+{ 
+  background-color:white;
+  width: 991px;
+  height: 2630px;
   
-    
-}   
-header
+  
+} 
+#bloc_page
 {
-    width: 1220px;
-    height: 70px;
-    margin-left: 40px;
-}  
-.sectionRecherche
-{
-  margin-left: 40px;
+  background-color:olive;
+  width: 975px;
+  
+  
+  
 
 }
-
-#Hébergements
+header
 {
-    width: 910px;
-    height: 1260px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding-right: 45px;   
+}
+  
+
+
+#Hebergements
+{
+    
+    height: 1430px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-    margin-left: 40px;
+    margin-bottom: 70px;
+    background-color: orchid;
+   
     
     
     
@@ -33,30 +42,30 @@ header
   
 #divhébergement
 {
-    width: 910px;
-    height: 610px;
-
+    width: 820px;
+    height: 800px;
+   
   
 }
 
 .dimensionArticleHebergement
 {
 
-    width: 261px;
+    width: 360px;
     height: 201px;
     border-radius: 20px;
-   
+    padding: 1px 1px 0 1px;
 }
 
 .figureSectionHebergement
 {
-    width: 261px;
-    margin: 6px 0 0 6px ;
+   
+   
     
 }
 .imgFigure
 {
-  width: 248px;
+  width: 352px;
   height: 112px;
 
 }
@@ -64,61 +73,70 @@ header
 
 aside
 {
-  width: 910px;
-  height: 620px;
+  width: 820px;
+  height: 550px;
   display: flex;
   flex-direction: column;
+  
   margin-left: 0;
-
+  background-color: orangered;
 }
  #div-H2-Aside
  {
-  width: 842px;
-  height: 27px;
-  display: flex;
-  justify-content: space-between
   
- }
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+ 
+  background-color: orangered;
+  
+}
  aside h2
 {
-  margin-left: 25px;
+  
 }
 .fa-chart-line
 {
- margin-right: 25px;
+ margin-right: 0px;
 }  
  
  #div-Article-Aside
 {
-    width: 910px;
-    height: 620px;
+    width: 0px;
+    height: 550px;
     display: flex;
     flex-direction: column;
-    
-}
+    margin-bottom: 10px;
+   
+  }
 
 .dimensionArticleAside
 {
-    width: 846px;
+    width: 746px;
     height: 145px;
     display: flex;
     align-items: center;
-}
+    padding: 0;
+    
+  }
 .figureAside
 {
-  width: 835px;
-  height: 132px;
+  
+  height: 135px;
   display: flex;
   align-items: center;
+  border-radius: 15px;
+  margin: 4px 0 4px 4px;
   
-  
+
 }
 .imgAside
 {  
-    width: 275px;
-   height: 132px;
-   
-}
+   width: 275px;
+   height: 135px;
+   margin: 0 ; 
+  
+  }
 .divEtoileAside
 {
    margin: 50px 0 0 0;
@@ -130,47 +148,148 @@ aside
 
 #Activités
 {
-  width: 1220px;
-  margin-left: 40px;
-
+   width: 820px;
+   height: 740px;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+     
+  
  
-
+   
+}
+#divH2-Section3
+{
+  height: 50px;
+  
 }
 #div-DesArticle-Activités-à-Marseille 
 {
-  width: 1220px;
+  display: flex;
+  
+  width: 820px;
+  height: 690px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+  
+  
+
 
 }
 
-.figureArticle1-et-3,.imgArticle1-et-3
+
+.aHref-section3
 {
-  width: 280px; 
+   text-decoration: none;
+   width: 395px;
+   height: 192px;
+}
+.aHref-section3
+{
+  box-shadow: 1px 1px 7px #0000002e;
+  border-radius: 15px;
+}
+.divArticle1-et-3
+{
+  
+  height: 192px;
+  background-color:white;
+  border-radius: 15px;  
+  
+  
+  }
+.imgArticle1-et-3
+{
+ width: 395px;
+ height: 132px; 
+ object-fit: cover;
+ border-radius: 15px 15px  0  0;
+ 
+}
+.h3-section3
+{
+
+background-color: white;
+padding: 15px 0 0 25px;
+font-weight: bold;
+color: initial;
 
 }
+
 
 
 
 /*...........concerne les petites photos.......................*/
-.div-DesPetites-Photos,.figure-petitePhoto1-petitePhoto4,.figure-petitePhoto2-petitePhoto3,.img-petitePhoto1-petitePhoto4,.img-petitePhoto2-petitePhoto3
+.div-DesPetites-Photos
+{
+  width: 395px;
+  height: 425px;
+  order:2;
+}
+
+
+.div-petitePhoto1-petitePhoto4
+{
+  
+   height: 192px;
+  
+   background-color: white; 
+   border-radius: 15px ;
+   
+   
+}
+.div-petitePhoto2-petitePhoto3
+{
+   
+
+   
+  background-color: white; 
+  border-radius: 15px ;
+  
+
+}
+.img-petitePhoto1-petitePhoto4
+{
+    width: 395px;
+   height: 132px; 
+   object-fit: cover;
+   border-radius: 15px 15px 0 0;
+   
+}
+.img-petitePhoto2-petitePhoto3
 {
 
-    width: 280px;
+  width: 395px;
+  height: 132px; 
+  object-fit: cover;
+ border-radius: 15px 15px 0 0;
+ 
 }
+
 
 /*------------------footer---------------------*/
 footer
 {
-   width: 1300px;
-   margin: 0;
+   width: 975px;
+   height: 250px;
    
 }
-#grandDivFooter
-{
-  width: 1240px;
-   
-}
+
 .divDesColones
 {
 
-width: 410px;  
+margin: 25px ;  
+background-color: orangered;
+
+}
+footer div ul 
+{
+  line-height: 35px;
+
+}
+footer span
+{
+
+
 }

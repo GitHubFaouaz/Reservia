@@ -5,48 +5,46 @@
  
  } 
 
-
 body
 {
 
   font-family:'Raleway-ExtraLight',sans-serif;  
-  width: 1500px;
-   height: 2000px;    
-   background-color:white;
-   margin: auto;
+  background-color:white;
+ 
 }
+#bloc_page
+{
+  width: 1200px;
+   margin: auto;
+   background-color: white;
+}
+
 
 header
 {
-    width: 1400px;
+    
     display: flex;
     justify-content:space-between;
-     
+
+    padding-top: 5px;
 }
 h1
 {
-  font-size: 2em;
-
+  font-size: 23px;
+ 
 }
 h1+p 
 {
   word-spacing: 3px;/*pour espacer les mots*/
-
+  margin-top: -10px;
+   
 }
 
-#imgHeader
-{
-  width: 160px;
-  height: 45px;
-  position: relative;
-  right: 30px;
-  
-  
-}
+
 nav
 {
     margin-right: 0px;
-    margin-top: 30px;
+    margin-top: 0px;
     
   }
 nav a
@@ -55,47 +53,18 @@ nav a
     text-decoration: none;
     color: initial;
 }
-#navHebergement
-{
-  border-top: 3px solid #0065FC;
-  padding-top: 25px;
-  color:#0065FC; 
-  
-}
-#activiteNav:hover
+
+.hoverNav:hover
 {
 
   border-top: 3px solid #0065FC;
   padding-top: 25px;
   color:#0065FC; 
-  
 
+ 
 }
-#inscritionNav
-{
-  color:#0065FC; 
-}
-#inscritionNav:hover
-{
-  border-top: 3px solid #0065FC;
-  padding-top: 25px;
-  color:#0065FC; 
-  
 
-}
 /*...........................fin header................*/
-.sectionRecherche
-{
-   width: 1300px;
-   height:300px;
-   
-}
-
-#headerRecherche
-{
-display: block;
-
-}
 
 form
 {
@@ -114,17 +83,14 @@ form
 }
 .fa-map-marker-alt
 {
-    width:53px; 
-    height: 50px;
-    border: 0px solid #F2F2F2 ;
-    border-radius: 15px 0 0 15px;
-    background-color: #F2F2F2;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+  border: 0px solid #F2F2F2;
+  border-radius: 13px 0 0 13px;
+  background-color: #F2F2F2;
+  padding: 15px 17px;
+
+}
    
-}     
    
 #inputSearch
 {
@@ -143,7 +109,7 @@ form
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px; 
     cursor: pointer;
-   
+    color: white;
     
 
 
@@ -152,12 +118,10 @@ form
 
 #barreFiltre
 {
-width: 870px;
-display: flex;
-justify-content: space-between; 
-align-items: center;
-margin-top: 1em;
 
+display: flex;
+align-items: center;
+margin-top: 15px; 
 flex-wrap: wrap;
 
 } 
@@ -170,41 +134,32 @@ flex-wrap: wrap;
 
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog
 {
-    color:#0065FC; 
-    background-color: #DEEBFF;
-    border: 1px solid #DEEBFF;
-    width: 25px;
-    height: 25px;
-    border-radius:100%;
-    padding:13px;
-    display: flex;
-    text-align:center;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-    position: relative;
-    right: 2px;
-    
+  color: #0065FC;
+  background-color: #DEEBFF;
+  border-radius: 20px;
+  padding: 13px;
+  margin-right: 10px;
+
 
   }
 
+  .fa-child
+{
+
+  padding: 13px 16px;
+}
 .rectangleFiltre
 {
-      display: flex;
-      align-items: center;
-      text-align: center;
-       color: black;
-       margin-left: 20px;
-       border: 2px solid  #d9d9d9;
-       border-radius: 30px;
-       text-decoration: none;
-       font-weight: bold;  
-       padding-right:13px ;
-       height: 50px;
-       
-       
-    }         
-         
+    
+   color: black;
+   margin-left: 35px;
+  border: 1px solid  #d9d9d9;
+  border-radius: 30px;
+  font-weight: bold;  
+ padding-right:13px ;
+      
+}        
+      
 .rectangleFiltre:hover
 {
    background-color:#F2F2F2; 
@@ -230,43 +185,39 @@ flex-wrap: wrap;
 {
 
   text-decoration: none;
- 
+  margin-bottom: 20px;
 }     
  /* ........................corps de la page section Hébergement  ..................... */  
 
-#Hébergements
+#Hebergements
 {
-   
-   width: 1400px;
-   height: 600px;
-   display: flex;
-   margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+ 
+  
+  
  
 
 }
 #divhébergement
 {
- 
-  width: 930px;
-  height: 600px;
-  background-color: #F2F2F2;
-  display: flex;
- flex-direction: column;
-  
-  border-radius: 25px;  
-
+   background-color: #F2F2F2;
+   display: flex;
+   flex-direction: column;
+   border-radius: 25px;  
+   
   
 }
 #h2Section2
 {
-   width: 350px;
-   height: 30px; 
+  
+   font-size: 22px;
    background-color: #F2F2F2;
-   border-radius: 25px 0 0 0 ;   
+     
    padding:  0px 0 0 28px; 
-   position: relative;
-   top: 10px;
-
+   margin: 25px 0 0 0 ;
+   
+  
   }
 #divDesArticles
 {
@@ -275,27 +226,23 @@ display: flex;
 justify-content:space-around ;
 flex-wrap: wrap;
 align-items: center;
-height: 480px;
-
+padding: 0 10px ;
+background-color: #F2F2F2;
 
 }
 
 
 .dimensionArticleHebergement
-{
-  border: 1px solid white;  
-  border-radius: 20px;
-  width: 255px;
-  height: 200px;
-  background-color:white;
-  box-shadow: 1.5px 1.5px 3px black ;
- 
-}
-.dimensionArticleHebergement:hover
-{
+{   
+    width: 240px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: white;
+    
 
-  box-shadow: 1px 1px 10px black ;
-}
+  }
+
 
 
 .aHref-de-section-ou-Aside
@@ -305,11 +252,7 @@ height: 480px;
 }
 .figureSectionHebergement
 {
-  display: flex;
-  flex-direction: column;
   margin: 4px 4px 0px 4px ;
-  
- 
 
 }
 
@@ -317,27 +260,22 @@ height: 480px;
 .imgFigure
 {
    
-   height: 110px;  
-   width: 245px;
+  height: 110px;
+  width: 100%;
+  object-fit: cover;
+  
+  border-radius: 15px 15px 0 0;
+} 
    
-   object-fit:cover;/* définit la façon dont le contenu d'un élément remplacé (<img> ou <video>*/ 
-   margin: 0px ;   
-   border-radius: 15px 15px 0 0; 
-   
-}
+
 .figcaptionSectionHebergement
 {
-   
-   display: block;
-   
-   width: 245px;
-   height: 80px;
    margin: 0 0 0 8px; 
    
 }
  h3
 {
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0;
     
 } 
@@ -352,7 +290,7 @@ h3+p{
   }
   .divEtoile
   {
-    margin: 5px 0 0 0px;
+    margin: 5px 0 7px 0;
     
   }
 
@@ -366,121 +304,94 @@ h3+p{
 
     color:#d9d9d9;
   }
+  .spanEuros
+  {
+    font-weight: bold;
+
+  }
 
   #aHref-afficherPlus
   {
-   width: 250px;
+   
    padding-left: 28px;
-   margin-top: 7px;
    color: inherit; 
-
-
+   text-decoration: none;
+   font-size: 17px;
+   margin: 20px 0 36px 0;
   }
   /*........aside Hébergement................*/
 
   aside
   {
-    width: 450px;
-    height: 600px;
+    
     background-color: #F2F2F2;
-    margin-left: 35px;
-    border-radius: 25px ;   
-   
+    margin-left: 25px;
+    border-radius: 25px;   
+    padding: 0 20px 12px 20px;
+    
   }
    
 #div-H2-Aside
 {
-   display: flex;
-   justify-content: space-around;
-    align-items:center;
-    
-    
-    width: 450px;
-    height: 70px;
-    border-radius: 25px 25px 0 0 ;
-    
-  }
-aside div h2
-{
- 
-  margin-right: 80px;
-  position:relative;
-  top: 10px;;
+  display: flex;
+  justify-content: space-between;
+  align-items:center; 
+  font-size: 13px; 
+  margin-top:25px; 
+  height: 26px;
+  
+  
 }
+
 .fa-chart-line
 {
-  font-size: 25px;  
-
-  position:relative;
-    top: 10px;;
+  font-size: 20px;  
+ 
 }
 #div-Article-Aside
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;/*en vertical au lieu de align content*/
-    align-items: center;
-    width: 450px;
-    height: 530px;
- 
-    
-    
+    justify-content: space-between;
 }
 .dimensionArticleAside
 {
-  width: 385px;
+  width: 300PX;
   height: 140px;
   border: 1px solid white;  
   border-radius: 20px;
-  background-color: white;
-  box-shadow: 1.5px 1.5px 3px black ;
+  background-color:white;
+  margin: 10px 0 10px 0;
+  
  
 }
-.dimensionArticleAside:hover
-{
-  box-shadow: 1px 1px 10px black ;
 
-}
 
 .figureAside
 {
-
   display: flex;
   align-items: center;
-  height: 140px;
-  margin: 0px 0px 0px 4px;
+  margin: 0px ;
   
 }
 .imgAside
 {
-   object-fit: cover;
-   width: 120px;        
-   height: 130px; 
-   border-radius: 15px 0 0 15px;
-  
-  
+  width: 110px;        
+  height: 130px; 
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+  margin: 4px 0px 4px 4px;
+ 
 }
 .figcaptionAside
 {
-   display: block;
-   width: 220px;
-   height: 130px;     
-   padding:0px 0 0 9px; 
-   
-}
-  aside figcaption h3
-{
   
-   margin-top: 3px;
-
-} 
-aside figcaption p 
-{
-
-  margin-top: 3px;
+   padding:0px 0 0 10px; 
   
 
-}
+  }
+
+
 .divEtoileAside
 {
    margin: 40px 0 0 0;
@@ -492,72 +403,63 @@ aside figcaption p
 
 #Activités
 {
-   width: 1400px;
    height: 610px;
+   
    display: flex;
    display: block;
-   margin-bottom: 45px;
+   margin:40px 0 45px 0;
+ 
    
 }
 #divH2-Section3
 {
-  widows: 1400px;
-  height: 30px; /*2em*/
- 
-  font-size: 15px;
+   font-size: 13px;
+  
 }
 #div-DesArticle-Activités-à-Marseille 
 {
-  width: 1400px;
-  height: 580px;
-  
   display: flex;
-  align-items: center;
   justify-content: space-between;
-
+  
+  
   
 
-}
-.classHoverPhotos
-{
-  box-shadow: 1.5px 1.5px 3px black ;
-  border-radius: 15px ; 
-}
-.classHoverPhotos:hover
-{
 
-  box-shadow: 1px 1px 10px black ;
+}
+
+
+.aHref-section3
+{
+   text-decoration: none;
+
 }
 .aHref-section3
 {
-text-decoration: none;
-border-radius: 15px ; 
-
-
+  box-shadow: 1px 1px 7px #0000002e;
+  border-radius: 15px;
 }
-.figureArticle1-et-3
+.divArticle1-et-3
 {
-  width: 320px; 
-  height: 550px;
   
-
-  border-radius: 15px ; 
-  margin: 0;
+  height: 550px;
+  background-color:white;
+  border-radius: 15px;  
+  
   
   }
 .imgArticle1-et-3
 {
- width: 320px;
+ width: 275px;
  height: 485px; 
  object-fit: cover;
  border-radius: 15px 15px  0  0;
 
 }
-.figcation-section3
+.h3-section3
 {
 
 background-color: white;
-padding: 15px 0 0 30px;
+padding: 15px 0 0 25px;
 font-weight: bold;
 color: initial;
 
@@ -567,39 +469,38 @@ color: initial;
 
 
 /*...........concerne les petites photos.......................*/
-
 .div-DesPetites-Photos
 {
-  width: 320px; 
-  height: 550px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+ 
   
-  justify-content: space-between;/*en vertical au lieu de align content*/
-
 }
-.figure-petitePhoto1-petitePhoto4
+
+
+.div-petitePhoto1-petitePhoto4
 {
-   width:320px;
+  
    height:290px; 
    background-color: white; 
    border-radius: 15px ;
-   margin: 0;/*pour coller les photo dans la div-DesPetites-Photos*/
+   
    
 }
-.figure-petitePhoto2-petitePhoto3
+.div-petitePhoto2-petitePhoto3
 {
-   width:320px;
-   height:225px;
+   
+  height:200px;
   background-color: white; 
   border-radius: 15px ;
-  margin: 0; /*pour coller à div-DesPetites-Photos*/
+  
 
 }
 .img-petitePhoto1-petitePhoto4
 {
-   width: 320px;
-   height: 230px; 
+   width: 275px;
+   height: 228px; 
    object-fit: cover;
    border-radius: 15px 15px 0 0;
    
@@ -607,8 +508,8 @@ color: initial;
 .img-petitePhoto2-petitePhoto3
 {
 
- width: 320px;
- height: 165px; 
+  width: 275px;
+  height: 138px; 
  object-fit: cover;
  border-radius: 15px 15px 0 0;
  
@@ -619,46 +520,45 @@ color: initial;
 /*..............................................footer.......................................................*/
 footer
 {
-
-  width:1460px;
-  height: 225px;
-  display: block;
-  background-color: #F2F2F2;
-  margin-left:-30px;
-}
-#grandDivFooter
-{
-  
-  width:1400px;
-  height: 225px;
-  margin: auto;
+  height: 170px;
+  width: 1200px; 
+  margin-left: -50px;
+  padding: 45px 50px 0 50px; 
   display: flex;
   justify-content: space-between;
+  background-color: #F2F2F2;
   
   
 }
+
 
 .divDesColones 
 {
-   
-   height: 225px;
-   width: 459px;
+   width: 370px;
+   height: 150px;
   
-}
+   
+   
+  
+  }
+.aHref-footer
+{
+  text-decoration: none;
+  color: inherit;
+}  
 
 footer span
 {
     font-weight: bold;
     font-size: 1.17em;
-  
+   
 }
-ul , footer span
+ footer div ul  
 {
-   
-    list-style-type:none;
-   
-    padding-left: 32px;  
-    position: relative;
-    top: 32px;
-    line-height: 28px;
+     padding-left: 0;
+     list-style-type:none;
+     line-height: 28px;
+     
+    
+    
 }   
