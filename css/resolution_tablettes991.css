@@ -8,10 +8,9 @@ body
 } 
 #bloc_page
 {
-  background-color:olive;
-  width: 975px;
   
-  
+  width: 920px;
+  margin: auto;
   
 
 }
@@ -33,7 +32,7 @@ header
     flex-direction: column-reverse;
     justify-content: space-between;
     margin-bottom: 70px;
-    background-color: orchid;
+  
    
     
     
@@ -44,7 +43,7 @@ header
 {
     width: 820px;
     height: 800px;
-   
+    margin: auto;
   
 }
 
@@ -74,12 +73,15 @@ header
 aside
 {
   width: 820px;
-  height: 550px;
+  height: 560px;
   display: flex;
   flex-direction: column;
+
   
-  margin-left: 0;
-  background-color: orangered;
+  padding: 0 0 0 0;
+  margin: auto;
+
+  background-color:#F2F2F2;
 }
  #div-H2-Aside
  {
@@ -88,7 +90,7 @@ aside
   display: flex;
   justify-content: space-between;
  
-  background-color: orangered;
+  background-color:yellow;
   
 }
  aside h2
@@ -102,21 +104,24 @@ aside
  
  #div-Article-Aside
 {
-    width: 0px;
-    height: 550px;
+    width: 820px;
+    
     display: flex;
     flex-direction: column;
+    align-content: space-between;
     margin-bottom: 10px;
-   
+    align-items: center;
+
+  
   }
 
 .dimensionArticleAside
 {
-    width: 746px;
+    width: 747px;
     height: 145px;
     display: flex;
     align-items: center;
-    padding: 0;
+    
     
   }
 .figureAside
@@ -242,7 +247,7 @@ color: initial;
 .div-petitePhoto2-petitePhoto3
 {
    
-
+  height: 192px;
    
   background-color: white; 
   border-radius: 15px ;
@@ -286,10 +291,5 @@ background-color: orangered;
 footer div ul 
 {
   line-height: 35px;
-
-}
-footer span
-{
-
 
 }

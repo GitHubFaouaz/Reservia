@@ -1,30 +1,49 @@
 body
-{
-    background-color:olive;
-    width: 750px;
-    height: 3150px;
+{ 
+  background-color:white;
+
+  height: 3130px;
   
-    
-}   
-header
+  
+} 
+#bloc_page
 {
-   
-}  
-.sectionRecherche
-{
- 
+  background-color:olive;
+  width: 730px;
+  
+  
+  
 
 }
-
-#Hébergements
+header
 {
+    
+    display: flex;
+    justify-content: space-between;
+    padding-right: 45px;   
+}
+  
 
+
+#Hebergements
+{
+    
+    height: 1430px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    background-color: orchid;
+   
+    
     
     
   }
   
 #divhébergement
 {
+    width: 820px;
+    height: 800px;
    
   
 }
@@ -32,28 +51,44 @@ header
 .dimensionArticleHebergement
 {
 
-    
+    width: 360px;
+    height: 201px;
+    border-radius: 20px;
+    padding: 1px 1px 0 1px;
 }
 
 .figureSectionHebergement
 {
+   
+   
     
 }
 .imgFigure
 {
-  
+  width: 352px;
+  height: 112px;
+
 }
 
 
 aside
 {
-   width: 690px;
-   height: 620px;
+  width: 820px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  
+  margin-left: 0;
+  background-color: orangered;
 }
  #div-H2-Aside
  {
-    width: 663px;
-    height: 30px;
+  
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+ 
+  background-color: orangered;
   
 }
  aside h2
@@ -62,39 +97,50 @@ aside
 }
 .fa-chart-line
 {
- 
+ margin-right: 0px;
 }  
  
  #div-Article-Aside
 {
-    width: 690px;
-   height: 620px;
-}
-
-}
+    width: 0px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+   
+  }
 
 .dimensionArticleAside
 {
-    width: 625px;
+    width: 746px;
     height: 145px;
- }
-
-
+    display: flex;
+    align-items: center;
+    padding: 0;
+    
+  }
 .figureAside
 {
-    width: 611px;
-    height: 132px;
-    
+  
+  height: 135px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  margin: 4px 0 4px 4px;
+  
+
 }
 .imgAside
 {  
-    width: 202px;
-    height: 132px;
- 
-}
+   width: 275px;
+   height: 135px;
+   margin: 0 ; 
+  
+  }
 .divEtoileAside
 {
-  
+   margin: 50px 0 0 0;
+ 
    
 }
  
@@ -102,94 +148,141 @@ aside
 
 #Activités
 {
+   width: 820px;
+   height: 740px;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+     
+  
  
-
+   
+}
+#divH2-Section3
+{
+  height: 50px;
+  
 }
 #div-DesArticle-Activités-à-Marseille 
 {
+  display: flex;
   
-}
-.classHoverPhotos
-{
+  width: 820px;
+  height: 690px;
+  display: flex;
+  flex-wrap: wrap;
+ 
   
+  
+
 
 }
 
 
 .aHref-section3
 {
-  
-
+   text-decoration: none;
+   width: 395px;
+   height: 192px;
 }
-.figureArticle1-et-3
+.aHref-section3
 {
- 
- 
-  
+  box-shadow: 1px 1px 7px #0000002e;
+  border-radius: 15px;
 }
+.divArticle1-et-3
+{
+  
+  height: 192px;
+  background-color:white;
+  border-radius: 15px;  
+  
+  
+  }
 .imgArticle1-et-3
 {
-
+ width: 395px;
+ height: 132px; 
+ object-fit: cover;
+ border-radius: 15px 15px  0  0;
+ 
 }
-
-
-.figcation-section3
+.h3-section3
 {
-  
+
+background-color: white;
+padding: 15px 0 0 25px;
+font-weight: bold;
+color: initial;
 
 }
+
 
 
 
 /*...........concerne les petites photos.......................*/
-.div-DesPetites-Photos,.figure-petitePhoto1-petitePhoto4,.figure-petitePhoto2-petitePhoto3,.img-petitePhoto1-petitePhoto4,.img-petitePhoto2-petitePhoto3
-{
-
-  
-  }
-
 .div-DesPetites-Photos
 {
+  width: 395px;
+  height: 425px;
+  order:2;
+}
+
+
+.div-petitePhoto1-petitePhoto4
+{
+  
+   height: 192px;
+  
+   background-color: white; 
+   border-radius: 15px ;
+   
+   
+}
+.div-petitePhoto2-petitePhoto3
+{
+   
+
+   
+  background-color: white; 
+  border-radius: 15px ;
   
 
-}
-.figure-petitePhoto1-petitePhoto4
-{
-
-}
-.figure-petitePhoto2-petitePhoto3
-{
-  
 }
 .img-petitePhoto1-petitePhoto4
 {
- 
+    width: 395px;
+   height: 132px; 
+   object-fit: cover;
+   border-radius: 15px 15px 0 0;
+   
 }
 .img-petitePhoto2-petitePhoto3
 {
+
+  width: 395px;
+  height: 132px; 
+  object-fit: cover;
+ border-radius: 15px 15px 0 0;
  
 }
+
+
 /*------------------footer---------------------*/
 footer
 {
    
-   
 }
-#grandDivFooter
-{
- 
 
- 
-}
 .divDesColones
 {
 
- 
-
+margin: 25px ;  
+background-color: orangered;
 
 }
-ul ,footer span
+footer div ul 
 {
-
+  line-height: 35px;
 
 }
