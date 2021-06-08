@@ -1,180 +1,498 @@
-body
-{ 
-  background-color:white;
 
-  height: 3130px;
+
+body
+{
+
+   
+  
+  max-width: 768px;
+  height: 5350px;
   
   
-} 
+
+}
 #bloc_page
 {
-  background-color:olive;
-  width: 730px;
-  
-  
-  
-
+   width: 750px;
+   margin: auto;
+   background-color:white;
+   height: 5350px;
 }
+
+
 header
 {
-    
-    display: flex;
-    justify-content: space-between;
-    padding-right: 45px;   
+  align-items: flex-start; 
+  flex-direction: column;
+  padding:0;
+  margin: 0;
 }
+
+header img
+{
+  margin-left: 25px;
+  width: 100px;
   
 
+}
+Nav
+{
+  
+  width: 100%;
+  /*border-bottom: 3px solid #F2F2F2;*/
+  margin-top: 25px; 
+ 
+}
+header ul 
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-inline-start: 0; /*définit le décalage avec le début de la zone de remplissage d'un élément*/
+ 
+  background-color: magenta;
 
-#Hebergements
+}
+
+#liHebergements
+{
+  border-top: 0;
+ 
+
+width: 50%;
+padding: 0 146px; 
+ border-bottom:  3px solid #0065FC;
+ text-align: center;
+
+}
+#hoverNavActivites
+{
+  width: 50%;
+  padding: 0 147px; 
+  text-align: center;
+}
+#hoverNavActivites:hover
+{
+  border-top: 0;
+ 
+  
+  border-bottom:  3px solid #0065FC;
+ 
+  
+}
+#li-Inscription
+{
+position: absolute;
+top: 10px;
+right: 10px;
+font-weight: bold; 
+
+}  
+
+h1+p 
+{
+  word-spacing: 3px;/*pour espacer les mots*/
+  margin-top: -10px;
+   
+}
+nav a
+{
+  
+    text-decoration: none;
+    color: initial;
+
+}
+
+
+/*...........................fin header................*/
+#sectionRecherche
+{
+   padding-left: 25px;
+
+
+}
+
+h1
+{
+  font-size: 50px;
+  
+}
+h1+p
+{
+   font-size: 35px;
+   word-spacing: 7px;
+}
+form
+{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+    
+     
+    
+
+}
+
+.fa-map-marker-alt
+{
+  
+  border: 0px solid #F2F2F2;
+  border-radius: 13px 0 0 13px;
+  background-color: #F2F2F2;
+  padding: 15px 17px;
+
+}
+   
+   
+#inputSearch
+{
+  
+  width: 524px;
+  height:50px;
+  color: black;
+  font-size: 20px;
+
+}
+#button
+{
+    width: 50px;
+    height:50px;
+    border: 0px solid silver ;
+    background-color: #0065FC;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    
+
+}
+.fa-search
+{
+  display: flex;/*invisible*/
+  justify-content: center;
+}
+#barreDeRecherche span
+{
+  display: none;
+
+}
+
+#barreFiltre
+{
+
+display: flex;
+flex-wrap: wrap;
+
+margin-top: 15px; 
+padding-left: 0px;
+
+} 
+
+#barreFiltre p 
+{
+font-size: 20px;
+
+}
+
+#filtresTitre
+{
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 100%;
+}
+.fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog
+{
+  color: #0065FC;
+  background-color: #DEEBFF;
+  border-radius: 55px;
+  padding: 14px;
+  margin-right: 25px;
+  
+
+}
+
+.rectangleFiltre
 {
     
-    height: 1430px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    margin-bottom: 70px;
-    background-color: orchid;
+   color: black;
+   margin-left: 0px;
+  border: 1px solid  #d9d9d9;
+  border-radius: 30px;
+  font-weight: bold;  
+ margin-right:105px;
+ padding-right: 70px;
+      
+}        
    
-    
-    
-    
+.rectangleFiltre:hover
+{
+   background-color:#F2F2F2; 
+   color:black ;
+   cursor: pointer;
+   box-shadow:0 0 5px black; 
+   margin-top:3px;
+}   
+.fa-info
+{
+   color:#0065FC; 
+   background-color:white;
+   border: 1px solid silver;
+   width: 18px;
+   height: 17px;
+   border-radius: 100%;
+   padding:6px ;
+   
+   margin-right: 10px;
+   
+}
+#Paragraphe-point-I
+{
+  display: flex;
+  margin-bottom: 770px;
+
+  width: 100%; 
+}
+#Paragraphe-point-I span
+{
+ 
+ font-size: 20px;
+ 
+ width: 50%;
+ 
+}
+
+ /* ........................corps de la page section Hébergement  ..................... */  
+ #Hebergements
+ {
+
+display: flex;
+flex-direction: column-reverse;
+
+height: 2000px;
+margin-bottom: 300px; 
+
+
+}
+ #divhébergement
+{
+   width: 750px;
+   height: 1950px ;
+   display: flex;
+   flex-direction: column;
+   background-color:inherit;
+
+   margin-top: 50px 
+   
+}
+#h2Section2
+{
+  
+   font-size: 22px;
+   padding-left: 28px; 
+   margin:0 0 25px;
+   background-color:inherit;
+  
   }
-  
-#divhébergement
+  #divDesArticles
 {
-    width: 820px;
-    height: 800px;
-   
-  
-}
 
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color:inherit;
+}
 .dimensionArticleHebergement
-{
-
-    width: 360px;
-    height: 201px;
+{   
+    width: 700px;
+    height: 310px; 
+    border: 1px solid white;
     border-radius: 20px;
-    padding: 1px 1px 0 1px;
-}
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    background-color:white;
+    box-shadow: 1px 1px 3px  #0000002e;
+  }
 
+.aHref-de-section-ou-Aside
+{
+  color:inherit;
+  text-decoration: none;
+}
 .figureSectionHebergement
 {
-   
-   
-    
+  margin: 4px 4px 0px 4px ;
+
 }
 .imgFigure
 {
-  width: 352px;
-  height: 112px;
-
-}
-
-
-aside
-{
-  width: 820px;
-  height: 550px;
-  display: flex;
-  flex-direction: column;
-  
-  margin-left: 0;
-  background-color: orangered;
-}
- #div-H2-Aside
- {
-  
-  height: 20px;
-  display: flex;
-  justify-content: space-between;
- 
-  background-color: orangered;
-  
-}
- aside h2
-{
-  
-}
-.fa-chart-line
-{
- margin-right: 0px;
-}  
- 
- #div-Article-Aside
-{
-    width: 0px;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
    
-  }
+  height: 235px;
+  width: 100%;
+  object-fit: cover;
+  
+  border-radius: 15px 15px 0 0;
+} 
+   
 
-.dimensionArticleAside
+.figcaptionSectionHebergement
 {
-    width: 746px;
-    height: 145px;
-    display: flex;
-    align-items: center;
-    padding: 0;
+   margin: 0 0 0 8px; 
+   
+}
+h3
+{
+    font-size: 1em;
+    margin: 0;
+    
+} 
+   
+h3+p{
+    
+    
+    font-size: 16px;
+    margin: 5px 0 0 0px;
+    
+  
+  }
+  .divEtoile
+  {
+    margin: 5px 0 7px 0;
     
   }
+
+  .star-on
+  {
+      
+   color:#0065FC;   
+  }
+  .star-off
+  {
+
+    color:#d9d9d9;
+  }
+  .spanEuros
+  {
+    font-weight: bold;
+
+  }
+
+  #aHref-afficherPlus
+  {
+   
+   padding-left: 28px;
+   color: inherit; 
+   text-decoration: none;
+   font-size: 17px;
+   
+  }
+  /*........aside Hébergement................*/
+  aside
+  {
+    width: 750px;
+    height: 750px;
+    background-color: #F2F2F2;
+    border-radius: 0px;
+    padding-bottom:15px; 
+  
+    
+    
+}
+   
+#div-H2-Aside
+{
+  width:700px;
+  display: flex;
+  justify-content: space-between;
+  
+  font-size: 13px; 
+  height: 36px;
+  padding: 0;
+  
+}
+
+.fa-chart-line
+{
+  font-size: 20px;  
+ 
+}
+#div-Article-Aside
+{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    width: 700px;
+    
+}
+.dimensionArticleAside
+{
+  width:700PX;
+  height: 190px;
+  border: 1px solid white;  
+  border-radius: 20px;
+  background-color:white;
+  margin: 10px 0  ;
+  
+ 
+}
 .figureAside
 {
-  
-  height: 135px;
   display: flex;
   align-items: center;
-  border-radius: 15px;
-  margin: 4px 0 4px 4px;
+  margin: 0px ;
   
-
 }
 .imgAside
-{  
-   width: 275px;
-   height: 135px;
-   margin: 0 ; 
+{
+  width: 160px;        
+  height: 180px; 
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+  margin: 4px 0px 4px 4px;
+ 
+}
+.figcaptionAside
+{
   
+   padding:0px 0 0 10px; 
+  
+
   }
+
+
 .divEtoileAside
 {
-   margin: 50px 0 0 0;
- 
-   
-}
- 
-/*----section3--------------*/ 
+   margin: 40px 0 0 0;
+    
 
+}
+
+/*...............section3 Activités à Marseille*/
 #Activités
 {
-   width: 820px;
-   height: 740px;
-   display: flex;
-   flex-direction: column;
-   margin: auto;
-     
+   height: 1480px;
+   width: 750px;
   
+   display: block;
+ 
  
    
 }
 #divH2-Section3
 {
-  height: 50px;
+   font-size: 13px;
+   padding-left: 31px;
+   margin-bottom: -20px;
+   width: 750px;
   
-}
+  }
 #div-DesArticle-Activités-à-Marseille 
 {
+  width: 750px;
+  height: 1450px;
+  
   display: flex;
-  
-  width: 820px;
-  height: 690px;
-  display: flex;
-  flex-wrap: wrap;
- 
-  
-  
-
+  display: block;
+  align-items: center;
 
 }
 
@@ -182,30 +500,32 @@ aside
 .aHref-section3
 {
    text-decoration: none;
-   width: 395px;
-   height: 192px;
-}
-.aHref-section3
-{
-  box-shadow: 1px 1px 7px #0000002e;
-  border-radius: 15px;
-}
+   
+   width: 700px;
+   height: 215px;
+   
+   
+  }
+
+
 .divArticle1-et-3
 {
-  
-  height: 192px;
+  width: 700px;
+  height: 215px;
   background-color:white;
-  border-radius: 15px;  
-  
-  
+  border-radius: 15px;
+  margin: 20px 0 20px 25px;
+  box-shadow: 1px 1px 3px  #0000002e;
+ 
+ 
   }
 .imgArticle1-et-3
 {
- width: 395px;
- height: 132px; 
+ width: 700px;
+ height:158px; 
  object-fit: cover;
  border-radius: 15px 15px  0  0;
- 
+
 }
 .h3-section3
 {
@@ -223,36 +543,43 @@ color: initial;
 /*...........concerne les petites photos.......................*/
 .div-DesPetites-Photos
 {
-  width: 395px;
-  height: 425px;
-  order:2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+   width: 750px;
+   height: 450px;
+   
+
+
+  
 }
 
 
 .div-petitePhoto1-petitePhoto4
 {
-  
-   height: 192px;
-  
+   width: 700px;
+   height:215px;
    background-color: white; 
    border-radius: 15px ;
+   
    
    
 }
 .div-petitePhoto2-petitePhoto3
 {
-   
-
-   
+  width: 700px;
+  height:215px;
   background-color: white; 
   border-radius: 15px ;
+ 
   
-
 }
 .img-petitePhoto1-petitePhoto4
 {
-    width: 395px;
-   height: 132px; 
+  width: 700px;
+  height:158px; 
    object-fit: cover;
    border-radius: 15px 15px 0 0;
    
@@ -260,29 +587,58 @@ color: initial;
 .img-petitePhoto2-petitePhoto3
 {
 
-  width: 395px;
-  height: 132px; 
-  object-fit: cover;
+  width: 700px;
+  height:158px;  
+ object-fit: cover;
  border-radius: 15px 15px 0 0;
  
 }
 
 
-/*------------------footer---------------------*/
+
+/*..............................................footer.......................................................*/
 footer
 {
+  height: 480px;
+  width: 750px; 
+  padding: 0;
+  
+  display: flex;
+  
+  flex-direction: column;
+  background-color: #F2F2F2;
+  
+  
+}
+
+
+.divDesColones 
+{
+  width: 370px;
+  height: 140px;
    
-}
-
-.divDesColones
+   margin-bottom: 10px;
+   
+  
+  }
+.aHref-footer
 {
+  text-decoration: none;
+  color: inherit;
+}  
 
-margin: 25px ;  
-background-color: orangered;
-
-}
-footer div ul 
+footer span
 {
-  line-height: 35px;
-
+    font-weight: bold;
+    font-size: 1.17em;
+   padding-left: 28px;
 }
+ footer div ul  
+{
+     padding-left: 28px;
+     list-style-type:none;
+     line-height: 30px;
+   
+    
+    
+}   

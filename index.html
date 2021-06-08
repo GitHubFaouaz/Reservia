@@ -20,20 +20,21 @@
 
     <header>
       
-      <img src="images/logo/Reservia.svg" >
+      <img src="images/logo/Reservia.svg" id="imgHeader" >
       <nav>
-         <ul>
-            <il><a href="#Hébergements" class="hoverNav">Hébergements</a></il>
-            <il><a href="#Activités"class="hoverNav">Activités</a></il>
-            <il><a href="#" class="hoverNav">S'inscrire</a></il>
-        </ul>
+         <ul >
+            <li><a href="#Hebergements" id="liHebergements">Hébergements</a></li>
+             <li><a href="#Activités" id="hoverNavActivites">Activités</a></li>
+            <li id="li-Inscription"><a href="#"id="il-Inscription" >S'inscrire</a></li>      
+          </ul>
       </nav>
-
-
+      
+ 
+    
     </header>
 
   
-    <section class="sectionRecherche">
+    <section id="sectionRecherche">
     
       <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
       <p>En plein centre ville ou en pleine nature</p>
@@ -41,21 +42,21 @@
 
       <form>
         <div id="barreDeRecherche">
-          <i class="fas fa-map-marker-alt"></i><input type="search" value="Marseille,France" id="inputSearch"><button type="button" id="button">Rechercher</button>
+          <i class="fas fa-map-marker-alt"></i><input type="search" value="Marseille,France" id="inputSearch"><button type="button" id="button"><span>Rechercher</span><i class="fas fa-search"></i> </button>
         </div>
 
         <div id="barreFiltre">
           <p id="filtresTitre"> Filtres</p>
-          <p class="rectangleFiltre"><i class="fas fa-money-bill-wave"></i><span>Économique</span></p>
-          <p class="rectangleFiltre"><i class="fas fa-child"></i> <span>Familial</span></p>
-          <p class="rectangleFiltre"><i class="fas fa-heart"></i><span>Romantique</span></</p>
-          <p class="rectangleFiltre"><i class="fas fa-dog"></i><span>Animaux autorisés</span></p>
-
+          <p class="rectangleFiltre"><i class="fas fa-money-bill-wave"></i>Économique</p>
+          <p class="rectangleFiltre"><i class="fas fa-child"></i> Familial</p>
+          <p class="rectangleFiltre"><i class="fas fa-heart"></i>Romantique</p>
+          <p class="rectangleFiltre"><i class="fas fa-dog"></i>Animaux autorisés</p>
+          
 
         </div>
 
       </form>
-        <p id="le-point-I"><i class="fas fa-info"></i><span>Plus de 500 logements sont disponibles dans cette
+        <p  id="Paragraphe-point-I"><i class="fas fa-info"></i><span>Plus de 500 logements sont disponibles dans cette
           ville</span></p>
 
 
@@ -355,40 +356,41 @@
       <!---div-DesArticle-Activités-à-Marseille-->
     </section>
 
-    <footer>
-
-      
-
-        <div class="divDesColones"><span>A propos</span>
-          <ul>
-            <li><a href="#" class="aHref-footer">Fonctionnement du site </a></li>
-            <li><a href="#" class="aHref-footer">Conditons générales de vente</a> </li>
-            <li><a href="#" class="aHref-footer">Données et confidentialité</a></li>
-          </ul>
-        </div>
-
-        <div class="divDesColones"> <span>Nos hébergements </span>
-          <ul>
-            <li><a href="#" class="aHref-footer">Charte qualité</a></li>
-            <li><a href="#" class="aHref-footer">Soumettre votre hôtel</a></li>
-          </ul>
-        </div>
-
-        <div class="divDesColones"><span >Assistance</span>
-          <ul>
-            <li><a href="#" class="aHref-footer"> Centre d'aide</a></li>
-            <li><a href="#" class="aHref-footer">Nous contacter</a></li>
-          </ul>
-
-        </div>
-     
-
-
-
-    </footer>
-
+   
 
 
    
   </div><!--bloc_page-->
+  <footer>
+
+      
+
+    <div class="divDesColones"><span>A propos</span>
+      <ul>
+        <li><a href="#" class="aHref-footer">Fonctionnement du site </a></li>
+        <li><a href="#" class="aHref-footer">Conditons générales de vente</a> </li>
+        <li><a href="#" class="aHref-footer">Données et confidentialité</a></li>
+      </ul>
+    </div>
+
+    <div class="divDesColones"> <span>Nos hébergements </span>
+      <ul>
+        <li><a href="#" class="aHref-footer">Charte qualité</a></li>
+        <li><a href="#" class="aHref-footer">Soumettre votre hôtel</a></li>
+      </ul>
+    </div>
+
+    <div class="divDesColones"><span >Assistance</span>
+      <ul>
+        <li><a href="#" class="aHref-footer"> Centre d'aide</a></li>
+        <li><a href="#" class="aHref-footer">Nous contacter</a></li>
+      </ul>
+
+    </div>
+ 
+
+
+
+</footer>
+
 </body>

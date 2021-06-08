@@ -2,7 +2,7 @@ body
 { 
   background-color:white;
   width: 991px;
-  height: 2630px;
+  height: 2790px;
   
   
 } 
@@ -11,8 +11,8 @@ body
   
   width: 920px;
   margin: auto;
+  background-color: white;
   
-
 }
 header
 {
@@ -21,18 +21,22 @@ header
     justify-content: space-between;
     padding-right: 45px;   
 }
-  
+h1
+{
+  font-size: 30px;
+ 
+}  
 
 
 #Hebergements
 {
     
-    height: 1430px;
+    height: 1400px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-    margin-bottom: 70px;
   
+    
    
     
     
@@ -78,19 +82,19 @@ aside
   flex-direction: column;
 
   
-  padding: 0 0 0 0;
+
   margin: auto;
 
   background-color:#F2F2F2;
 }
  #div-H2-Aside
  {
-  
+   
   height: 20px;
   display: flex;
   justify-content: space-between;
+  padding: 0 37px;
  
-  background-color:yellow;
   
 }
  aside h2
@@ -284,12 +288,18 @@ footer
 .divDesColones
 {
 
-margin: 25px ;  
-background-color: orangered;
+margin: 25px 0 0 20px ;  
+
+
+}
+footer span 
+{
+  padding-left: 28px;
 
 }
 footer div ul 
 {
   line-height: 35px;
-
+  padding-left: 28px;
 }
+
