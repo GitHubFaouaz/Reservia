@@ -1,143 +1,72 @@
 body
 { 
-  background-color:white;
-  width: 991px;
-  height: 2790px;
-  
-  
+   width: 991px;
 } 
 #bloc_page
 {
-  
-  width: 920px;
-  margin: auto;
-  background-color: white;
-  
+  margin: 0 50px;
 }
-header
-{
-    
-    display: flex;
-    justify-content: space-between;
-    padding-right: 45px;   
-}
+
 h1
 {
   font-size: 30px;
  
 }  
 
-
 #Hebergements
 {
     
-    height: 1400px;
+    height: 1420px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-  
-    
-   
-    
-    
-    
-  }
+    align-items: center;
+    margin-bottom:50px;
+}
   
 #divhébergement
 {
     width: 820px;
     height: 800px;
-    margin: auto;
-  
 }
 
 .dimensionArticleHebergement
 {
-
-    width: 360px;
+   width: 360px;
     height: 201px;
-    border-radius: 20px;
-    padding: 1px 1px 0 1px;
+   padding: 1px 1px 0 1px;
 }
 
-.figureSectionHebergement
-{
-   
-   
-    
-}
 .imgFigure
 {
   width: 352px;
   height: 112px;
-
 }
-
 
 aside
 {
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+ 
+#div-H2-Aside
+{
+   padding: 0 37px;
+}
+#div-Article-Aside
+{
   width: 820px;
-  height: 560px;
-  display: flex;
-  flex-direction: column;
-
-  
-
-  margin: auto;
-
-  background-color:#F2F2F2;
+  align-items: center;
 }
- #div-H2-Aside
- {
-   
-  height: 20px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 37px;
- 
-  
-}
- aside h2
-{
-  
-}
-.fa-chart-line
-{
- margin-right: 0px;
-}  
- 
- #div-Article-Aside
-{
-    width: 820px;
-    
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    margin-bottom: 10px;
-    align-items: center;
-
-  
-  }
 
 .dimensionArticleAside
 {
     width: 747px;
     height: 145px;
-    display: flex;
-    align-items: center;
-    
-    
-  }
+}
 .figureAside
 {
-  
-  height: 135px;
-  display: flex;
-  align-items: center;
-  border-radius: 15px;
   margin: 4px 0 4px 4px;
-  
-
 }
 .imgAside
 {  
@@ -145,134 +74,82 @@ aside
    height: 135px;
    margin: 0 ; 
   
-  }
+}
+
 .divEtoileAside
 {
    margin: 50px 0 0 0;
  
-   
-}
+ }
  
 /*----section3--------------*/ 
 
 #Activités
 {
-   width: 820px;
-   height: 740px;
-   display: flex;
-   flex-direction: column;
-   margin: auto;
-     
-  
- 
-   
+  width: 820px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
+
 #divH2-Section3
 {
-  height: 50px;
-  
+  margin-bottom: 30px;
 }
+
 #div-DesArticle-Activités-à-Marseille 
 {
-  display: flex;
-  
-  width: 820px;
-  height: 690px;
+  height: 670px;
   display: flex;
   flex-wrap: wrap;
- 
-  
-  
-
-
 }
-
 
 .aHref-section3
 {
-   text-decoration: none;
-   width: 395px;
+   
    height: 192px;
-}
-.aHref-section3
-{
-  box-shadow: 1px 1px 7px #0000002e;
-  border-radius: 15px;
 }
 .divArticle1-et-3
 {
   
   height: 192px;
-  background-color:white;
-  border-radius: 15px;  
-  
-  
-  }
+}
 .imgArticle1-et-3
 {
  width: 395px;
  height: 132px; 
- object-fit: cover;
- border-radius: 15px 15px  0  0;
- 
-}
-.h3-section3
-{
-
-background-color: white;
-padding: 15px 0 0 25px;
-font-weight: bold;
-color: initial;
 
 }
-
-
-
 
 /*...........concerne les petites photos.......................*/
 .div-DesPetites-Photos
 {
-  width: 395px;
-  height: 425px;
+ 
+  height: 414px;
   order:2;
 }
 
-
 .div-petitePhoto1-petitePhoto4
 {
-  
-   height: 192px;
-  
-   background-color: white; 
-   border-radius: 15px ;
-   
-   
+  height: 192px;
 }
 .div-petitePhoto2-petitePhoto3
 {
    
   height: 192px;
-   
-  background-color: white; 
-  border-radius: 15px ;
-  
-
 }
+
 .img-petitePhoto1-petitePhoto4
 {
     width: 395px;
    height: 132px; 
-   object-fit: cover;
-   border-radius: 15px 15px 0 0;
-   
 }
+
 .img-petitePhoto2-petitePhoto3
 {
 
   width: 395px;
   height: 132px; 
-  object-fit: cover;
- border-radius: 15px 15px 0 0;
  
 }
 
@@ -280,23 +157,22 @@ color: initial;
 /*------------------footer---------------------*/
 footer
 {
-   width: 975px;
+   width: 991px;
    height: 250px;
-   
+   margin-bottom: 0;
 }
 
 .divDesColones
 {
-
-margin: 25px 0 0 20px ;  
-
-
+  margin: 25px 0 0 20px ;  
 }
+
 footer span 
 {
   padding-left: 28px;
 
 }
+
 footer div ul 
 {
   line-height: 35px;
