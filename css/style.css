@@ -46,7 +46,6 @@ header a
     text-decoration: none;
     color: initial;
     
-   
 }
 
 #liHebergements
@@ -248,10 +247,10 @@ padding: 0 10px ;
 .dimensionArticleHebergement
 {   
     width: 240px;
-    border: 1px solid white;
     border-radius: 20px;
     margin: 10px;
     background-color: white;
+    padding: 5px;
 }
 
 .aHref-de-section-ou-Aside
@@ -262,8 +261,8 @@ padding: 0 10px ;
 
 .figureSectionHebergement
 {
-  margin: 4px 4px 0px 4px ;
-
+  margin:0px ;
+ 
 }
 
 .imgFigure
@@ -384,7 +383,7 @@ aside
   height: 130px; 
   object-fit: cover;
   border-radius: 15px 0 0 15px;
-  margin: 4px 0px 4px 4px;
+  margin: 5px 0px 5px 5px;
 }
 
 .figcaptionAside
