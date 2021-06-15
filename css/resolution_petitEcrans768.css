@@ -1,40 +1,22 @@
-
-
 body
 {
 
-   
-  
-  
   width: 480px;
-  height: 5350px;
-  margin: auto;
-  
-
+  height: 4787px;
 }
+
 #bloc_page
 {
-   
-   width: 480px;
-   background-color:olive;
-   height: 5350px;
-   margin: auto;
-   
-  
-  }
-
+  height: 4308px;
+  margin: auto;
+}
 
 header
 {
   align-items: flex-start; 
   flex-direction: column;
   padding:0;
-  
-  
-  
-  
- background-color: darkcyan;
-
+  position: relative;
 }
 
 header img
@@ -42,72 +24,59 @@ header img
   margin-left: 25px;
   width: 125px;
   margin-top: 15px;
-
 }
+
 Nav
 {
-  
   width:100%;
-  
-  padding-inline-start: 0;
   margin-top: 45px; 
-  background-color: aqua;
-  
 }
+
 header ul 
 {
-  width: 100%;
-  display: flex;
+  
   padding-inline-start: 0; /*définit le décalage avec le début de la zone de remplissage d'un élément*/
   margin: 0;
-  background-color: magenta;
-
 }
+
 nav ul li:nth-child(1)
 {
-   width: 50%;
-  
-   text-align: center;
-   
-   padding: 0 0px 25px 0px;
- 
+  width: 50%;
+  text-align: center;
   border-bottom:  3px solid #0065FC;
 }
+
 nav ul li:nth-child(2)
 {
   width: 50%;
-  
   text-align: center;
   border-bottom: 3px solid #F2F2F2;
   padding: 0 0px 25px 0px;
-  
 }
+
 nav ul li:nth-child(2):hover
 {
   border-top: 0;
   padding-bottom: 25px;
   border-bottom:  3px solid #0065FC;
- 
 }
+
 nav ul li:nth-child(3)
 {
   position: absolute;
   top: 30px;
   right: 26px;
   font-weight: bold; 
- 
- 
 }
+
 #liHebergements
 {
   border-top: 0;
   font-size: 20px;
 }
+
 #hoverNavActivites
 {
-  border-top: none;
-  padding-top: 25px;
-  
   font-size: 20px;
 }
 #hoverNavActivites:hover
@@ -115,32 +84,28 @@ nav ul li:nth-child(3)
   border-top: none;
   padding-top: 25px;
   color:#0065FC;
-  
+}
+.invisible
+{
+  display: inline-block!important;
 }
 #li-Inscription
 {
  color: #0065FC;
  font-size: 20px;
-
 }
-
-
 
 nav a
 {
   
-    text-decoration: none;
-    color: initial;
-
+  text-decoration: none;
+  color: initial;
 }
-
 
 /*...........................fin header................*/
 #sectionRecherche
 {
    padding: 0px 25px;
-   
-
 }
 
 h1
@@ -148,6 +113,7 @@ h1
   font-size: 29px;
   
 }
+
 h1+p
 {
   font-size: 22px;
@@ -155,48 +121,20 @@ h1+p
   margin-top: -13px;
   margin-bottom: 35px;
 }
-form
-{
-     display: flex;
-     flex-direction: column;
-     flex-wrap: wrap;
-    
-     
-    
 
-}
-
-.fa-map-marker-alt
-{
-  
-  border: 0px solid #F2F2F2;
-  border-radius: 13px 0 0 13px;
-  background-color: #F2F2F2;
-  padding: 15px 17px;
-
-}
-   
-   
 #inputSearch
 {
-  
   width: 315px;
-  height: 50px;
-  color: black;
   font-size: 20px;
 }
+
 #button
 {
-    width: 50px;
-    height:50px;
-    border: 0px solid silver ;
-    background-color: #0065FC;
-    border-radius: 15px;
-    cursor: pointer;
-    color: white;
-    
-
+  width: 50px;
+  height:50px;
+  border-radius: 15px;
 }
+
 .fa-search /*invisible*/
 {
   display: flex;
@@ -205,30 +143,23 @@ form
 #barreDeRecherche span
 {
   display: none;
-
 }
 
 #barreFiltre
 {
-
 display: flex;
 flex-wrap: wrap;
 font-size: 20px;
-background-color: orangered;
-margin-top: 15px; 
-padding-left: 0px;
-
 } 
-
 
 #filtresTitre
 {
   font-size: 24px;
-    font-weight: bold;
-    width: 100%;
-    background-color: orange;
-    margin: 20px 0 10px 0;
+  font-weight: bold;
+  width: 100%;
+  margin: 20px 0 15px 0;
 }
+
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog
 {
   color: #0065FC;
@@ -236,24 +167,16 @@ padding-left: 0px;
   border-radius: 55px;
   padding: 14px;
   margin-right: 10px;
-  
-
 }
 
 .rectangleFiltre
 {
-  color: black;
-    margin-left: 0px;
-    border: 1px solid #d9d9d9;
-    border-radius: 30px;
-    font-weight: bold;
-    margin-right: 28px;
-    padding-right: 26px;
-    margin-top: -3px;
-      
+  margin-left: 0px;
+  margin-right: 28px;
+  padding-right: 26px;
+  margin-top:0 ;
 }
-      
-   
+
 .rectangleFiltre:hover
 {
    background-color:#F2F2F2; 
@@ -262,6 +185,7 @@ padding-left: 0px;
    box-shadow:0 0 5px black; 
    margin-top:3px;
 }   
+
 .fa-info
 {
    color:#0065FC; 
@@ -271,36 +195,24 @@ padding-left: 0px;
    height: 17px;
    border-radius: 100%;
    padding:6px ;
-   
    margin-right: 10px;
    
 }
+
 #Paragraphe-point-I
 {
   display: flex;
   margin-bottom: 40px;
-  width: 100%;
 }
+
 #Paragraphe-point-I span
 {
- 
  font-size: 21px;
- 
  width: 88%;
- 
 }
 
  /* ........................corps de la page section Hébergement  ..................... */  
- #Hebergements
- {
 
-  display: flex;
-  flex-direction: column-reverse;
-  height: 2332px;
-  padding: 0px;
-  background-color: aqua;
-  width: 100%;
-}
 
  #divhébergement
 {
@@ -308,150 +220,75 @@ padding-left: 0px;
   height: 1670px;
   display: flex;
   flex-direction: column;
-  background-color: red;
+  background-color: inherit;
   margin: 0px;
 }
    
 
 #h2Section2
 {
-   width: 413px;
+ 
    font-size: 27px;
-   padding-left: 28px; 
-   margin:0 0 25px 0;
-   background-color:inherit;
-   
-  }
-  #divDesArticles
-{
-
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color:inherit;
-padding: 0;
+   padding-left: 30px; 
+   margin-bottom: 25px;
 }
+
 .dimensionArticleHebergement
 {   
   width: 403px;
   height: 228px;
-  /* border: 1px solid white; */
   border-radius: 20px;
-  /* margin-bottom: 20px; */
-  /* padding-bottom: 10px; */
   background-color: white;
   box-shadow: 1px 1px 3px #0000002e;
-  margin: 0 0 20px 0;
   padding: 4px;
 }
   
-
 .aHref-de-section-ou-Aside
 {
   color:inherit;
   text-decoration: none;
 }
-.figureSectionHebergement
-{
-  margin: 0px 0px 0px 0px;
-  width: 100%;
 
-}
 .imgFigure
 {
-   
   height: 137px;
   width: 100%;
-  object-fit: cover;
-  border-radius: 15px 15px 0 0;
-
 } 
-   
 
-.figcaptionSectionHebergement
-{
-   margin: 0 0 0 8px; 
-   
-}
 h3
 {
-    font-size: 23px;
-    margin: 0;
-    
+  font-size: 23px;
 } 
+
+#aHref-afficherPlus
+{
    
-h3+p{
-    
-    
-    font-size: 16px;
-    margin: 5px 0 0 0px;
-    
-  
-  }
-  .divEtoile
-  {
-    margin: 5px 0 7px 0;
-    
-  }
+  padding-left: 30px;
+}
+   #aHref-afficherPlus h3
+{
+  font-size: 20px;
 
-  .star-on
-  {
-      
-   color:#0065FC;   
-  }
-  .star-off
-  {
+}
 
-    color:#d9d9d9;
-  }
-  .spanEuros
-  {
-    font-weight: bold;
-
-  }
-
-  #aHref-afficherPlus
-  {
-   
-   padding-left: 28px;
-   color: inherit; 
-   text-decoration: none;
-   
-   
-  }#aHref-afficherPlus h3
-  {
-    font-size: 20px;
-
-  }
-  /*........aside Hébergement................*/
-  aside
-  {
-    width: 100%;
-    height: 640px;
-    background-color: #F2F2F2;
-    border-radius: 0px;
-    /* padding-bottom: 12px; */
-    /* padding: 0px 0px; */
-    margin: 0px 0 0px 0;
-    background-color: lime;
+/*........aside Hébergement................*/
+aside
+{
+  width: 100%;
+  border-radius: 0px;
+  padding-bottom: 30px; 
 }
    
 #div-H2-Aside
 {
   width: 413px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  height: 36px;
   padding: 30px 0 15px 0px;
   margin: auto;
-  
 }
+
 #div-H2-Aside h2 
 {
-   
-font-size: 27px;
-
+  font-size: 27px;
 }
 
 .fa-chart-line
@@ -461,102 +298,59 @@ font-size: 27px;
 }
 #div-Article-Aside
 {
-  display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    align-items: center;
-    width: 100%;
-    padding: 0 0px;
+  
+  width: 100%;
 }
-    
 
 .dimensionArticleAside
 {
   width: 403px;
-    height: 145px;
-    border: 1px solid white;
-    border-radius: 20px;
-    background-color: white;
-    margin: 5px 0px;
-    padding: 4px;
+  height: 145px;
+  margin: 5px 0px;
+  padding: 4px;
 }
-  
- 
 
-.figureAside
-{
-  display: flex;
-  align-items: center;
-  margin: 0px ;
-  
-}
 .imgAside
 {
-    width: 132px;
-    height: 145px;
-    object-fit: cover;
-    border-radius: 15px 0 0 15px;
-    margin: 0px 0px 0px 0px;
- 
+  width: 132px;
+  height: 145px;
 }
-.figureAside {
-  margin: 0px 0 0px 0px;
-}
+
 .figcaptionAside
 {
-  
-   padding:0px 0 0 19px; 
-  
-
-  }
-
+  padding:0px 0 0 19px; 
+}
 
 .divEtoileAside
 {
-   margin: 40px 0 0 0;
-    
-
+   margin-top: 40px;
 }
 
 /*...............section3 Activités à Marseille*/
 #Activités
 {
-   height: 1480px;
-   width: 750px;
-  
-   display: block;
- 
- 
-   
-}
-#divH2-Section3
-{
-   font-size: 13px;
-   padding-left: 31px;
-   margin-bottom: -20px;
-   width: 750px;
-  
-  }
-#div-DesArticle-Activités-à-Marseille 
-{
-  height: 1300px;
-  display: flex;
-  display: block;
-  background-color: azure;
-  align-items: center;
-  width: 480px;
-}
+   height: 1153px;
+   width: 480px;
 }
 
+#divH2-Section3
+{
+   padding-left: 31px;
+   margin: 0;
+   width: 100%;
+}
+
+#div-DesArticle-Activités-à-Marseille 
+{
+  height: 1083px;
+  display: flex; 
+  justify-content: center;
+}
 
 .aHref-section3
 {
-  text-decoration: none;
-  width: 403px;
-  height: 150px;
-   
-  }
-
+ height: 150px;
+}
 
 .divArticle1-et-3
 {
@@ -564,28 +358,20 @@ font-size: 27px;
   height: 150px;
   background-color: white;
   border-radius: 15px;
-  margin: 20px 0 20px 25px;
+  margin: 0px 0 50px 0px;
   box-shadow: 1px 1px 3px #0000002e;
- 
- 
-  }
+}
+
 .imgArticle1-et-3
 {
   width: 403px;
   height: 95px;
-  object-fit: cover;
-  border-radius: 15px 15px 0 0;
 }
-
 
 .h3-section3
 {
-
-background-color: white;
-padding: 15px 0 0 25px;
-font-weight: bold;
-color: initial;
-
+ background-color: white;
+ font-weight: bold;
 }
 
 
@@ -594,82 +380,51 @@ color: initial;
 /*...........concerne les petites photos.......................*/
 .div-DesPetites-Photos
 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 413px;
-  height: 450px;
+  width: 403px;
+  height: 330px;
+  order: 0;
 }
-
-
-  
-}
-
 
 .div-petitePhoto1-petitePhoto4
 {
   width: 403px;
   height: 150px;
-  background-color: white;
-  border-radius: 15px;
-   
 }
+
 .div-petitePhoto2-petitePhoto3
 {
   width: 403px;
-    height: 150px;
-    background-color: white;
-    border-radius: 15px;
+  height: 150px;
 }
  
-  
-}
 .img-petitePhoto1-petitePhoto4
 {
-  width: 403px;
+  width: 100%;
   height: 95px;
-  object-fit: cover;
-  border-radius: 15px 15px 0 0;
-   
 }
+
 .img-petitePhoto2-petitePhoto3
 {
-
-  width: 403px;
+  width: 100%;
   height: 95px;
-  object-fit: cover;
-  border-radius: 15px 15px 0 0;
-
- 
 }
-
-
 
 /*..............................................footer.......................................................*/
 footer
 {
   height: 480px;
-  width: 750px; 
+  width: 480px; 
   padding: 0;
-  
   display: flex;
-  
   flex-direction: column;
-  background-color: #F2F2F2;
-  
-  
 }
-
 
 .divDesColones 
 {
   width: 370px;
   height: 140px;
-   
-   margin-bottom: 10px;
-   
-  
-  }
+}
+
 .aHref-footer
 {
   text-decoration: none;
@@ -678,16 +433,10 @@ footer
 
 footer span
 {
-    font-weight: bold;
-    font-size: 1.17em;
-   padding-left: 28px;
+  padding-left: 30px;
 }
  footer div ul  
 {
-     padding-left: 28px;
-     list-style-type:none;
-     line-height: 30px;
-   
-    
-    
+  padding-left: 30px;
+  line-height: 30px;
 }   

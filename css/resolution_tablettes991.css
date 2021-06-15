@@ -16,7 +16,7 @@ h1
 #Hebergements
 {
     
-    height: 1420px;
+    
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -28,18 +28,19 @@ h1
 {
     width: 820px;
     height: 800px;
+    margin-top: 30px;
 }
 
 .dimensionArticleHebergement
 {
    width: 360px;
     height: 201px;
-   padding: 1px 1px 0 1px;
+   
 }
 
 .imgFigure
 {
-  width: 352px;
+  width: 360px;
   height: 112px;
 }
 
@@ -62,11 +63,12 @@ aside
 .dimensionArticleAside
 {
     width: 747px;
-    height: 145px;
+    height: 135px;
 }
 .figureAside
 {
-  margin: 4px 0 4px 4px;
+  margin: 0 ;
+  width: 100%;
 }
 .imgAside
 {  
@@ -81,7 +83,10 @@ aside
    margin: 50px 0 0 0;
  
  }
- 
+ .invisible
+{
+  display: none!important;/*invisible*/
+}
 /*----section3--------------*/ 
 
 #Activités

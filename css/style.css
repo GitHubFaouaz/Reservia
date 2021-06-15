@@ -143,18 +143,18 @@ form
 
 }
 
-.fa-search
+.invisible
 {
-  display: none;/*invisible*/
+  display: none!important;/*invisible*/
 }
 
 #barreFiltre
 {
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-margin-top: 15px; 
-
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 15px; 
+  
 } 
 
 #filtresTitre
@@ -165,11 +165,24 @@ margin-top: 15px;
 
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog
 {
+ /* 
+  
+  min-height: 3.5rem;
+  min-width: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  color: #0065FC;
+  border-radius: 100%;
+  
+  
+   cette technique n'est pas efficace pour faire le cercle */
   color: #0065FC;
   background-color: #DEEBFF;
   border-radius: 55px;
-  padding: 14px;
-  margin-right: 10px;
+  padding: 19px;
+  margin-right: 8px;
   
 }
 
@@ -177,12 +190,12 @@ margin-top: 15px;
 {
     
    color: black;
-   margin-left: 35px;
+   margin-left: 25px;
    border: 1px solid  #d9d9d9;
    border-radius: 30px;
    font-weight: bold;  
-   padding-right:13px ;
-      
+   padding-right:15px ;
+   
 }        
       
 .rectangleFiltre:hover
@@ -250,7 +263,7 @@ padding: 0 10px ;
     border-radius: 20px;
     margin: 10px;
     background-color: white;
-    padding: 5px;
+    padding: 4px;
 }
 
 .aHref-de-section-ou-Aside
@@ -331,7 +344,7 @@ aside
 {
     
     background-color: #F2F2F2;
-    margin-left: 25px;
+    margin-left: 20px;
     border-radius: 25px;   
     padding: 0 20px 12px 20px;
     
@@ -363,10 +376,11 @@ aside
 {
   width: 300PX;
   height: 140px;
-  border: 1px solid white;  
+  border: 1px solid white;
   border-radius: 20px;
-  background-color:white;
-  margin: 10px 0 ;
+  background-color: white;
+  margin: 10px 0;
+  padding: 4px;
 }
 
 .figureAside
@@ -374,16 +388,14 @@ aside
   display: flex;
   align-items: center;
   margin: 0px ;
-  
 }
 
 .imgAside
 {
   width: 110px;        
-  height: 130px; 
+  height: 140px; 
   object-fit: cover;
   border-radius: 15px 0 0 15px;
-  margin: 5px 0px 5px 5px;
 }
 
 .figcaptionAside
@@ -429,7 +441,8 @@ aside
 {
   height: 547px;
   border-radius: 15px;  
- }
+ 
+}
 
  .imgArticle1-et-3
 {
@@ -437,6 +450,7 @@ aside
  height: 485px; 
  object-fit: cover;
  border-radius: 15px 15px  0  0;
+
 }
 
 .h3-section3
