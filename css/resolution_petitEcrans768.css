@@ -1,15 +1,13 @@
 body
 {
 
-  width: 480px;
-  height: 4787px;
+  width: 500px;
+  
 }
-
-#bloc_page
-{
-  height: 4308px;
-  margin: auto;
-}
+#bloc_page {
+  padding: 0 30px;
+   
+ }
 
 header
 {
@@ -21,15 +19,16 @@ header
 
 header img
 {
-  margin-left: 25px;
+  
   width: 125px;
   margin-top: 15px;
 }
 
 Nav
 {
-  width:100%;
-  margin-top: 45px; 
+  width: 100%;
+    margin-top: 45px;
+  
 }
 
 header ul 
@@ -65,7 +64,7 @@ nav ul li:nth-child(3)
 {
   position: absolute;
   top: 30px;
-  right: 26px;
+  right: 0px;
   font-weight: bold; 
 }
 
@@ -105,7 +104,7 @@ nav a
 /*...........................fin header................*/
 #sectionRecherche
 {
-   padding: 0px 25px;
+  
 }
 
 h1
@@ -116,21 +115,20 @@ h1
 
 h1+p
 {
-  font-size: 22px;
-  word-spacing: 0px;
-  margin-top: -13px;
-  margin-bottom: 35px;
+  font-size: 23px;
+  margin: 10px 0 35px 0px;
+  
 }
 
 #inputSearch
 {
-  width: 315px;
+  width: 100%;
   font-size: 20px;
 }
 
 #button
 {
-  width: 50px;
+  width: 60px;
   height:50px;
   border-radius: 15px;
 }
@@ -172,8 +170,8 @@ font-size: 20px;
 .rectangleFiltre
 {
   margin-left: 0px;
-  margin-right: 28px;
-  padding-right: 26px;
+  margin-right: 7px;
+  padding-right: 25px;
   margin-top:0 ;
 }
 
@@ -195,7 +193,7 @@ font-size: 20px;
    height: 17px;
    border-radius: 100%;
    padding:6px ;
-   margin-right: 10px;
+   margin-right: 20px;
    
 }
 
@@ -208,7 +206,7 @@ font-size: 20px;
 #Paragraphe-point-I span
 {
  font-size: 21px;
- width: 88%;
+ width: 100%;
 }
 
  /* ........................corps de la page section Hébergement  ..................... */  
@@ -274,7 +272,7 @@ h3
 /*........aside Hébergement................*/
 aside
 {
-  width: 100%;
+  
   border-radius: 0px;
   padding-bottom: 30px; 
 }
@@ -300,13 +298,14 @@ aside
 {
   
   width: 100%;
+  padding: 0px;
 }
 
 .dimensionArticleAside
 {
-  width: 403px;
+ 
   height: 145px;
-  margin: 5px 0px;
+
   padding: 4px;
 }
 

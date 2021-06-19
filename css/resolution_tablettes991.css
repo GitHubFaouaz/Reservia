@@ -1,11 +1,8 @@
 body
 { 
-   width: 991px;
+  width: 991px;
 } 
-#bloc_page
-{
-  margin: 0 50px;
-}
+
 
 h1
 {
@@ -19,50 +16,51 @@ h1
     
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
+   
     margin-bottom:50px;
 }
   
 #divhébergement
 {
-    width: 820px;
-    height: 800px;
+    padding: 0 30px;
     margin-top: 30px;
 }
 
 .dimensionArticleHebergement
 {
-   width: 360px;
+    width: 395px;
     height: 201px;
-   
+    margin-bottom: 30px;
 }
 
 .imgFigure
 {
-  width: 360px;
-  height: 112px;
+  width: 100%;
+  height: 125px;
 }
 
 aside
 {
-  padding: 0 0 20px 0;
-  margin: 0;
+  padding: 0px;
+ 
+  width: 100%;
+  margin-left: 0;
 }
  
 #div-H2-Aside
 {
-   padding: 0 37px;
+  padding: 0px 30px;
 }
 #div-Article-Aside
 {
-  width: 820px;
   align-items: center;
+  padding: 0 30px;
 }
+
 
 .dimensionArticleAside
 {
-    width: 747px;
+    width: 100%;
     height: 135px;
 }
 .figureAside
@@ -74,7 +72,7 @@ aside
 {  
    width: 275px;
    height: 135px;
-   margin: 0 ; 
+  
   
 }
 
@@ -91,15 +89,15 @@ aside
 
 #Activités
 {
-  width: 820px;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  padding: 0 30px;
+  margin: 0px 0 20px 0;
 }
 
 #divH2-Section3
 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #div-DesArticle-Activités-à-Marseille 
@@ -111,18 +109,20 @@ aside
 
 .aHref-section3
 {
-   
+  width: 403px;
    height: 192px;
 }
 .divArticle1-et-3
 {
-  
+  width: 403px;
   height: 192px;
+ 
+    
 }
 .imgArticle1-et-3
 {
- width: 395px;
- height: 132px; 
+  width: 100%;
+  height: 132px;
 
 }
 
@@ -135,8 +135,10 @@ aside
 }
 
 .div-petitePhoto1-petitePhoto4
-{
+{ 
+  width: 403px;
   height: 192px;
+ 
 }
 .div-petitePhoto2-petitePhoto3
 {
@@ -146,15 +148,15 @@ aside
 
 .img-petitePhoto1-petitePhoto4
 {
-    width: 395px;
-   height: 132px; 
+  width: 100%;
+  height: 132px;
 }
 
 .img-petitePhoto2-petitePhoto3
 {
 
-  width: 395px;
-  height: 132px; 
+  width: 100%;
+  height: 132px;
  
 }
 
@@ -162,25 +164,16 @@ aside
 /*------------------footer---------------------*/
 footer
 {
-   width: 991px;
-   height: 250px;
+
+   padding: 45px 0px 30px 80px;
    margin-bottom: 0;
 }
 
-.divDesColones
-{
-  margin: 25px 0 0 20px ;  
-}
 
-footer span 
-{
-  padding-left: 28px;
-
-}
 
 footer div ul 
 {
   line-height: 35px;
-  padding-left: 28px;
+ 
 }
 
