@@ -151,6 +151,11 @@ form {
     background: red;
     border-radius: 50%;*/
 }
+ .fa-child{
+ 
+  padding: 19px 21px;
+}
+
 
 .rectangleFiltre {
   color: black;
@@ -346,12 +351,13 @@ aside {
 
 .aHref-section3 {
   text-decoration: none;
+  box-shadow: 1px 1px 15px #0000002e;
+  border-radius: 15px;
+ 
 }
 
-.aHref-section3 {
-  box-shadow: 1px 1px 7px #0000002e;
-  border-radius: 15px;
-}
+
+
 
 .divArticle1-et-3 {
   height: 547px;
