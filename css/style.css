@@ -8,14 +8,18 @@
 
 
 body {
-  width: 1300px;
+  
   margin: auto;
-  overflow-x: hidden;
+  /*1360*/
+ /*1280*/
+ /*1145*/
 }
 
 #bloc_page {
  padding: 0 50px;
- 
+ max-width: 1300px;
+ width: 1300px;
+ margin: auto;
 }
 
 header {
@@ -42,7 +46,7 @@ header a {
 }
 
 #hoverNavActivites {
-  padding: 0 30px;
+  padding: 0 40px;
 }
 
 #hoverNavActivites:hover {
@@ -159,7 +163,7 @@ form {
 
 .rectangleFiltre {
   color: black;
-  margin-left: 25px;
+  margin-left: 40px;
   border: 1px solid #d9d9d9;
   border-radius: 30px;
   font-weight: bold;
@@ -220,9 +224,8 @@ form {
 }
 
 .dimensionArticleHebergement {
-  width: 240px;
+  width: 256px;
   border-radius: 20px;
-
   background-color: white;
   padding: 4px;
   margin-bottom: 20px;
@@ -249,7 +252,7 @@ form {
 }
 
 h3 {
-  font-size: 17px;
+  font-size: 19px;
   margin: 0;
 }
 
@@ -308,7 +311,7 @@ aside {
 }
 
 .dimensionArticleAside {
-  width: 300PX;
+  width: 334px;
   height: 140px;
 
   border-radius: 20px;
@@ -360,12 +363,13 @@ aside {
 
 
 .divArticle1-et-3 {
+  width: 300px;
   height: 547px;
   border-radius: 15px;
 }
 
 .imgArticle1-et-3 {
-  width: 275px;
+  width: 100%;
   height: 485px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
@@ -379,9 +383,11 @@ aside {
 /*...........concerne les petites photos.......................*/
 
 .div-DesPetites-Photos {
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .div-petitePhoto1-petitePhoto4 {
@@ -393,14 +399,14 @@ aside {
 }
 
 .img-petitePhoto1-petitePhoto4 {
-  width: 275px;
+  width: 100%;
   height: 228px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
 }
 
 .img-petitePhoto2-petitePhoto3 {
-  width: 275px;
+  width: 100%;
   height: 138px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
@@ -414,6 +420,8 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #F2F2F2;
+  max-width: 1350px;
+  margin: auto;
 }
 
 .divDesColones {
