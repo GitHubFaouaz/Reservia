@@ -7,9 +7,9 @@ body {
 }
 
 #bloc_page {
-  padding: 0 30px;
+  padding: 0 50px;
   margin: auto;
-  max-width: 500px;
+  
 }
 
 header {
@@ -315,7 +315,7 @@ aside {
 footer {
   display: flex;
   flex-direction: column;
-  padding-left: 60px;
+  padding-left: 80px;
 }
 
 .aHref-footer {
