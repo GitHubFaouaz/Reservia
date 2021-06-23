@@ -1,6 +1,18 @@
 body {
+
   
+
+
+
+  margin: auto;
 }
+#bloc_page {
+  padding: 0 50px;
+  max-width: 1300px;
+  
+  margin: auto;
+ }
+ 
 
 h1 {
   font-size: 30px;
@@ -84,6 +96,7 @@ aside {
 /*...........concerne les petites photos.......................*/
 
 .div-DesPetites-Photos {
+  width:403px ;
   height: 414px;
   order: 2;
   margin-top: 30px;

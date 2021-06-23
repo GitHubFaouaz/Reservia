@@ -1,9 +1,14 @@
 body {
   margin: auto;
+
+
+
+
 }
 
 #bloc_page {
   padding: 0 30px;
+  margin: auto;
 }
 
 header {

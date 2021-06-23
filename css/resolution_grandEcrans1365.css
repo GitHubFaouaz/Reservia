@@ -1,0 +1,43 @@
+#Hebergements {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.dimensionArticleHebergement {
+    width: 365px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+aside {
+    background-color: #F2F2F2;
+    margin-bottom: 30px;
+    margin-left: 0;
+    border-radius: 25px;
+    padding: 0 20px 12px 20px;
+    
+}
+#div-Article-Aside {
+    display: flex;
+     flex-direction: row;
+    justify-content: space-between;
+}
+.dimensionArticleAside {
+    width: 365px;
+    height: 140px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+.divArticle1-et-3 {
+    width: 289px;
+    height: 547px;
+    border-radius: 15px;
+}
+.div-DesPetites-Photos {
+    width: 289px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
