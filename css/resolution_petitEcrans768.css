@@ -9,6 +9,7 @@ body {
 #bloc_page {
   padding: 0 30px;
   margin: auto;
+  max-width: 500px;
 }
 
 header {
