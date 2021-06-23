@@ -1,13 +1,13 @@
 body {
   margin: auto;
 
-
+width: 500;
 
 
 }
 
 #bloc_page {
-  padding: 0px;
+  padding: 0 50px;
   margin: auto;
   
 }
