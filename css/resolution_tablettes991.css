@@ -17,7 +17,7 @@ h1 {
 }
 
 .dimensionArticleHebergement {
-  width: 369px;
+  width: 389px;
  
   margin-bottom: 30px;
 }
@@ -68,7 +68,7 @@ aside {
 
 
 .divArticle1-et-3 {
-  width: 377px;
+  width: 397px;
   height: 192px;
   margin: 0px;
 }
@@ -84,19 +84,19 @@ aside {
 /*...........concerne les petites photos.......................*/
 
 .div-DesPetites-Photos {
-  width:377px ;
+  width:397px ;
   height: 414px;
   order: 2;
   margin-top: 30px;
 }
 
 .div-petitePhoto1-petitePhoto4 {
-  width: 377px;
+  width: 397px;
   height: 192px;
 }
 
 .div-petitePhoto2-petitePhoto3 {
-  width: 377px;
+  width: 397px;
   height: 192px;
 }
 
