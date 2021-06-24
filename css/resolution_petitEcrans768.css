@@ -91,11 +91,11 @@ nav a {
   padding: 0 30px;
 }
 h1 {
-  font-size: 51px;
+  font-size: 26px;
 }
 
 h1+p {
-  font-size: 36px;
+  font-size: 24px;
   margin: 10px 0 35px 0px;
 }
 
@@ -244,7 +244,7 @@ aside {
 }
 
 .imgAside {
-  width: 132px;
+  width: 238px;
   height: 145px;
 }
 
@@ -315,7 +315,7 @@ aside {
 footer {
   display: flex;
   flex-direction: column;
-  padding-left: 80px;
+  padding-left: 30px;
 }
 
 .aHref-footer {
