@@ -1,14 +1,8 @@
-body {
-  margin: auto;
-  
 
-
-
-}
 
 #bloc_page {
-  padding: 0 30px;
-  margin: auto;
+  padding: 0 ;
+ 
   
 }
 
@@ -22,12 +16,13 @@ header {
 header img {
   width: 125px;
   margin-top: 15px;
+  margin: 15px 0 0 30px;
 }
 
 Nav {
-  width: 500px;
+  width: 100%;
   margin-top: 45px;
-  margin-left: -30px;
+ 
 }
 
 header ul {
@@ -58,7 +53,7 @@ nav ul li:nth-child(2):hover {
 nav ul li:nth-child(3) {
   position: absolute;
   top: 30px;
-  right: 0px;
+  right: 30px;
   font-weight: bold;
 }
 
@@ -94,11 +89,11 @@ nav a {
 /*...........................fin header................*/
 
 h1 {
-  font-size: 31px;
+  font-size: 51px;
 }
 
 h1+p {
-  font-size: 22px;
+  font-size: 36px;
   margin: 10px 0 35px 0px;
 }
 
@@ -148,10 +143,11 @@ h1+p {
 
 .rectangleFiltre {
   margin-left: 0px;
-  margin-right: 17px;
+  margin-right: 97px;
   padding-right: 23px;
   margin-top: 0;
   font-size: 24px;
+
 }
 
 .rectangleFiltre:hover {
@@ -200,7 +196,7 @@ h1+p {
 }
 
 .dimensionArticleHebergement {
-  width: 403px;
+  width:100%;
   height: 228px;
   border-radius: 20px;
   background-color: white;
@@ -288,6 +284,7 @@ aside {
 /*...........concerne les petites photos.......................*/
 
 .div-DesPetites-Photos {
+  width: 100%;
   height: 330px;
   order: 0;
   margin-bottom: 30px;
@@ -299,6 +296,7 @@ aside {
 }
 
 .div-petitePhoto2-petitePhoto3 {
+  width: 100%;
   height: 150px;
 }
 
