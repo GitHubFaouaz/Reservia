@@ -320,23 +320,26 @@ aside {
     background-color: white;
     padding: 4px;
     margin-bottom: 20px;
-}
+   
+  }
 
 .figureAside {
   display: flex;
   align-items: center;
   margin: 0px;
+  height: 100%;
 }
 
 .imgAside {
-  width: 47%;
+  width: 45%;
   height: 140px;
+
   object-fit: cover;
   border-radius: 15px 0 0 15px;
 }
 
 .figcaptionAside {
-  padding: 0px 0 0 8px;
+  padding: 0px 0 0 16px;
 }
 
 .divEtoileAside {
