@@ -2,21 +2,13 @@
   font-family: 'Raleway-Regular';
   src: url('../fonts/raleway/Raleway-Regular.ttf');
 }
+
 * {
-  font-family:'Raleway-Regular',sans-serif;
+  font-family: 'Raleway-Regular', sans-serif;
 }
 
-
 body {
-
- 
- 
- 
-
-  
   margin: auto;
- 
-
 }
 
 #bloc_page {
@@ -63,12 +55,12 @@ header a {
   padding-left: 10px;
   font-weight: bold;
 }
+
 #li-Inscription:hover {
   border-top: 3px solid #0065FC;
   padding-top: 25px;
   color: #0065FC;
 }
-
 
 /*...........................fin header................*/
 
@@ -82,8 +74,6 @@ h1 {
 h1+p {
   margin: 13px 0;
   font-size: 18px;
-
-
 }
 
 form {
@@ -144,25 +134,17 @@ form {
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
-   
-  
   color: #0065FC;
   background-color: #DEEBFF;
   border-radius: 55px;
   padding: 19px;
   margin-right: 8px;
-
-
-    /*  width: 50px;
-    height: 50px;
-    background: red;
-    border-radius: 50%;*/
-}
- .fa-child{
  
+}
+
+.fa-child {
   padding: 19px 21px;
 }
-
 
 .rectangleFiltre {
   color: black;
@@ -171,16 +153,15 @@ form {
   border-radius: 30px;
   font-weight: bold;
   padding-right: 15px;
- 
- 
+  transition: background-color 3s;
 }
 
 .rectangleFiltre:hover {
-  background-color: #F2F2F2;
+  background-color: #0065FC ;
   color: black;
   cursor: pointer;
-  box-shadow: 0 0 5px black;
   margin-top: 3px;
+
 }
 
 #Paragraphe-point-I {
@@ -213,17 +194,13 @@ form {
 }
 
 #h2Section2 {
-  
   margin: 25px 0 15px 0;
-  
 }
 
 #divDesArticles {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
- 
 }
 
 .dimensionArticleHebergement {
@@ -280,7 +257,6 @@ h3+p {
 }
 
 #aHref-afficherPlus {
-  
   color: inherit;
   text-decoration: none;
   font-size: 17px;
@@ -300,8 +276,6 @@ aside {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
-  
 }
 
 .fa-chart-line {
@@ -315,13 +289,12 @@ aside {
 
 .dimensionArticleAside {
   width: 402px;
-    height: 140px;
-    border-radius: 20px;
-    background-color: white;
-    padding: 4px;
-    margin-bottom: 20px;
-   
-  }
+  height: 140px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 4px;
+  margin-bottom: 20px;
+}
 
 .figureAside {
   display: flex;
@@ -333,7 +306,6 @@ aside {
 .imgAside {
   width: 45%;
   height: 140px;
-
   object-fit: cover;
   border-radius: 15px 0 0 15px;
 }
@@ -359,26 +331,19 @@ aside {
 
 .aHref-section3 {
   text-decoration: none;
-  
- 
-  
 }
-
-
-
 
 .divArticle1-et-3 {
   width: 348px;
-    height: 547px;
-    border-radius: 15px;
+  height: 547px;
+  border-radius: 15px;
   margin-right: 10px;
-  background-color:white;
+  background-color: white;
   box-shadow: 1px 1px 15px #0000002e;
-  
 }
-#margin-left-grandePhoto2{
- margin-left:10px ;
 
+#margin-left-grandePhoto2 {
+  margin-left: 10px;
 }
 
 .imgArticle1-et-3 {
@@ -393,7 +358,6 @@ aside {
   color: initial;
 }
 
-
 /*...........concerne les petites photos.......................*/
 
 .div-DesPetites-Photos {
@@ -401,20 +365,18 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .div-petitePhoto1-petitePhoto4 {
   height: 290px;
-  background-color:white;
+  background-color: white;
   box-shadow: 1px 1px 15px #0000002e;
   border-radius: 15px;
-  
 }
 
 .div-petitePhoto2-petitePhoto3 {
   height: 200px;
-  background-color:white;
+  background-color: white;
   box-shadow: 1px 1px 15px #0000002e;
   border-radius: 15px;
 }
