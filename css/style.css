@@ -139,7 +139,6 @@ form {
   border-radius: 55px;
   padding: 19px;
   margin-right: 8px;
- 
 }
 
 .fa-child {
@@ -157,11 +156,10 @@ form {
 }
 
 .rectangleFiltre:hover {
-  background-color: #0065FC ;
+  background-color: #0065FC;
   color: black;
   cursor: pointer;
   margin-top: 3px;
-
 }
 
 #Paragraphe-point-I {

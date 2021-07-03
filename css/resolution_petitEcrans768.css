@@ -21,7 +21,6 @@ Nav {
 }
 
 header ul {
-  
   padding: 0;
   margin: 0;
 }
@@ -107,7 +106,8 @@ h1+p {
   border-radius: 15px;
 }
 
-.fa-search{ /*invisible*/
+.fa-search {
+  /*invisible*/
   display: flex;
   justify-content: center;
 }
@@ -146,10 +146,9 @@ h1+p {
 }
 
 .rectangleFiltre:hover {
-  background-color: #0065FC ;
+  background-color: #0065FC;
   color: black;
   cursor: pointer;
-  
   margin-top: 3px;
 }
 
