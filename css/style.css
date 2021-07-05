@@ -139,10 +139,8 @@ form {
   border-radius: 55px;
   padding: 19px;
   margin-right: 8px;
-  /*  width: 50px;
-    height: 50px;
-    background: red;
-    border-radius: 50%;*/
+
+
 }
 
 .fa-child {
@@ -160,7 +158,10 @@ form {
 }
 
 .rectangleFiltre:hover {
-  background-color: #0065FC ;
+
+   
+
+  background-color: #0065FC;
   color: black;
   cursor: pointer;
   margin-top: 3px;

@@ -21,8 +21,7 @@ Nav {
 }
 
 header ul {
-  padding-inline-start: 0;
-  /*définit le décalage avec le début de la zone de remplissage d'un élément*/
+  padding: 0;
   margin: 0;
 }
 
@@ -88,11 +87,11 @@ nav a {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 27px;
 }
 
 h1+p {
-  font-size: 19px;
+  font-size: 25px;
   margin: 10px 0 35px 0px;
 }
 
@@ -107,7 +106,8 @@ h1+p {
   border-radius: 15px;
 }
 
-.fa-search{ /*invisible*/
+.fa-search {
+  /*invisible*/
   display: flex;
   justify-content: center;
 }
@@ -139,16 +139,16 @@ h1+p {
 
 .rectangleFiltre {
   margin-left: 0px;
-  margin-right: 10px;
+  margin-right: 35px;
   margin-top: 0;
   font-size: 21px;
+  transition: background-color 3s;
 }
 
 .rectangleFiltre:hover {
-  background-color: #F2F2F2;
+  background-color: #0065FC;
   color: black;
   cursor: pointer;
-  box-shadow: 0 0 5px black;
   margin-top: 3px;
 }
 
@@ -169,7 +169,7 @@ h1+p {
 }
 
 #Paragraphe-point-I span {
-  font-size: 18px;
+  font-size: 21px;
   width: 100%;
 }
 
@@ -191,7 +191,6 @@ h1+p {
 
 .dimensionArticleHebergement {
   width: 100%;
-  height: 228px;
   border-radius: 20px;
   background-color: white;
   box-shadow: 1px 1px 3px #0000002e;
@@ -204,12 +203,12 @@ h1+p {
 }
 
 .imgFigure {
-  height: 137px;
+  height: 270px;
   width: 100%;
 }
 
 h3 {
-  font-size: 23px;
+  font-size: 19px;
 }
 
 #aHref-afficherPlus h3 {
@@ -261,14 +260,14 @@ aside {
 
 .divArticle1-et-3 {
   width: 100%;
-  height: 150px;
+  height: 290px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 1px 1px 3px #0000002e;
 }
 
 .imgArticle1-et-3 {
-  height: 95px;
+  height: 240px;
 }
 
 .h3-section3 {
@@ -279,27 +278,27 @@ aside {
 
 .div-DesPetites-Photos {
   width: 100%;
-  height: 330px;
+  height: 608px;
   order: 0;
   margin-bottom: 30px;
 }
 
 .div-petitePhoto1-petitePhoto4 {
   width: 100%;
-  height: 150px;
+  height: 290px;
 }
 
 .div-petitePhoto2-petitePhoto3 {
   width: 100%;
-  height: 150px;
+  height: 290px;
 }
 
 .img-petitePhoto1-petitePhoto4 {
-  height: 95px;
+  height: 240px;
 }
 
 .img-petitePhoto2-petitePhoto3 {
-  height: 95px;
+  height: 240px;
 }
 
 /*..............................................footer.......................................................*/
@@ -313,4 +312,37 @@ footer {
 .aHref-footer {
   text-decoration: none;
   color: inherit;
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 34px;
+  }
+  .imgFigure {
+    height: 190px;
+    width: 100%;
+  }
+  .divArticle1-et-3 {
+    height: 245px;
+  }
+  .imgArticle1-et-3 {
+    height: 190px;
+  }
+  .div-DesPetites-Photos {
+    height: 519px;
+  }
+  .div-petitePhoto1-petitePhoto4 {
+    width: 100%;
+    height: 245px;
+  }
+  .div-petitePhoto2-petitePhoto3 {
+    width: 100%;
+    height: 245px;
+  }
+  .img-petitePhoto1-petitePhoto4 {
+    height: 190px;
+  }
+  .img-petitePhoto2-petitePhoto3 {
+    height: 190px;
+  }
 }
