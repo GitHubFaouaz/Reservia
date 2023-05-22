@@ -152,7 +152,12 @@ form {
   border-radius: 30px;
   font-weight: bold;
   padding-right: 15px;
+<<<<<<< HEAD
   transition: box-shadow 2s;
+=======
+  transition: background-color 3s;
+  transition: color 3s;
+>>>>>>> dev
 }
 
 .rectangleFiltre:hover {
