@@ -1,6 +1,6 @@
 # Projet 2 : Reservia
 
-![Reservia](images/Reservia.webp?raw=true "Cover Reservia OpenClassrooms"){: width="100%" height="300"}
+![Reservia](images/Reservia.webp?raw=true "Cover Reservia OpenClassrooms")
 
 ## Contexte :
 
