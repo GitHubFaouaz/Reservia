@@ -7,7 +7,7 @@ Reservia est une petite entreprise proposant un outil de planification de vacanc
 Objectifs :
 Créer un prototype de site en intégrant la maquette en HTML et CSS .Le site doit bien sûr être responsive.
 
-Langages utilisés :
+##Langages utilisés :
 HTML5 / CSS3
 
 Visiter le site web :https://githubfaouaz.github.io/FaouazAbdallah_2_23052021/
