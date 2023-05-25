@@ -14,5 +14,5 @@ Créer un prototype de site en intégrant la maquette en HTML et CSS
 
 HTML5 / CSS3
 
-- Visiter le site web :https://githubfaouaz.github.io/FaouazAbdallah_2_23052021/
+- Visiter le site web :https://githubfaouaz.github.io/Reservia/
 - Portfolio : ''
